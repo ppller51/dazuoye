@@ -1,0 +1,6 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kbool HikUsbBgr8Pub::openBySnOrIp(const string&, const string&)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:186:35:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MVCC_FLOATVALUE_T::fMax[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  186 |     MVCC_FLOATVALUE frameRate = {0[01;35m[K}[m[K; // 使用 MVCC_FLOATVALUE 类型
+      |                                   [01;35m[K^[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:186:35:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MVCC_FLOATVALUE_T::fMin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:186:35:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MVCC_FLOATVALUE_T::nReserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]

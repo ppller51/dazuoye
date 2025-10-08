@@ -1,0 +1,287 @@
+[0.164s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.195s] [35m[1mConsolidate compiler generated dependencies of target se[0m
+[0.208s] [ 50%] [32mBuilding CXX object CMakeFiles/se.dir/src/se.cpp.o[0m
+[1.864s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.864s]   407 |               res.successful = false; res.reason
+[1.864s]       |                                                 [01;31m[K^[m[K
+[1.864s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:82:43:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.864s]    82 | class HikUsbBgr8Pub : public rclcpp::Node [01;36m[K{[m[K
+[1.864s]       |                                           [01;36m[K^[m[K
+[1.869s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In constructor ‘[01m[KHikUsbBgr8Pub::HikUsbBgr8Pub()[m[K’:
+[1.869s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[1.869s]    88 |     [01;31m[Kserial_[m[K         = declare_parameter<std::string>("serial_number", "00E89503815");
+[1.869s]       |     [01;31m[K^~~~~~~[m[K
+[1.873s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kip_[m[K’ was not declared in this scope
+[1.873s]    89 |     [01;31m[Kip_[m[K             = declare_parameter<std::string>("ip_address", "");
+[1.873s]       |     [01;31m[K^~~[m[K
+[1.879s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:90:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+[1.879s]    90 |     [01;31m[Kframe_id_[m[K       = declare_parameter<std::string>("frame_id", "camera_frame");
+[1.879s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.885s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:91:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_topic_[m[K’ was not declared in this scope
+[1.885s]    91 |     [01;31m[Kimage_topic_[m[K    = declare_parameter<std::string>("image_topic", "image_raw");
+[1.885s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.892s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos_reliable_[m[K’ was not declared in this scope
+[1.892s]    92 |     [01;31m[Kqos_reliable_[m[K   = declare_parameter<bool>("qos_reliable", false); // false=BestEffort(推荐)，true=Reliable
+[1.892s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.899s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kreconnect_ms_[m[K’ was not declared in this scope
+[1.899s]    93 |     [01;31m[Kreconnect_ms_[m[K   = declare_parameter<int>("reconnect_interval_ms", 1000);
+[1.899s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.908s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_auto_[m[K’ was not declared in this scope
+[1.908s]    96 |     [01;31m[Kexposure_auto_[m[K  = declare_parameter<int>("exposure_auto", 0);      // 0=Off,1=Once,2=Continuous
+[1.908s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.916s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_time_[m[K’ was not declared in this scope
+[1.916s]    97 |     [01;31m[Kexposure_time_[m[K  = declare_parameter<double>("exposure_time", 5000.0); // 微秒
+[1.916s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.923s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:98:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_auto_[m[K’ was not declared in this scope
+[1.923s]    98 |     [01;31m[Kgain_auto_[m[K      = declare_parameter<int>("gain_auto", 0);          // 0=Off,1=Once,2=Continuous
+[1.923s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.928s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_[m[K’ was not declared in this scope
+[1.928s]    99 |     [01;31m[Kgain_[m[K           = declare_parameter<double>("gain", 6.0);
+[1.928s]       |     [01;31m[K^~~~~[m[K
+[1.933s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kacq_fps_[m[K’ was not declared in this scope
+[1.933s]   100 |     [01;31m[Kacq_fps_[m[K        = declare_parameter<double>("acquisition_fps", 180.0);
+[1.933s]       |     [01;31m[K^~~~~~~~[m[K
+[1.939s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:101:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpixel_format_[m[K’ was not declared in this scope
+[1.939s]   101 |     [01;31m[Kpixel_format_[m[K   = declare_parameter<std::string>("pixel_format", "BGR8");
+[1.939s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.948s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:111:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pixel_enum_[m[K’ was not declared in this scope
+[1.948s]   111 |       [01;31m[Kcamera_pixel_enum_[m[K = m.camera_enum;
+[1.948s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.956s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:112:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdst_pixel_type_[m[K’ was not declared in this scope
+[1.956s]   112 |       [01;31m[Kdst_pixel_type_[m[K    = m.dst_pixel_type;
+[1.956s]       |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.964s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:113:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_encoding_[m[K’ was not declared in this scope
+[1.964s]   113 |       [01;31m[Kpublish_encoding_[m[K  = m.publish_encoding;
+[1.964s]       |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.968s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:120:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[1.968s]   120 |       [01;31m[Kpub_[m[K = create_publisher<sensor_msgs::msg::Image>(image_topic_, qos);
+[1.968s]       |       [01;31m[K^~~~[m[K
+[1.977s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_cb_handle_[m[K’ was not declared in this scope
+[1.977s]   124 |     [01;31m[Kparam_cb_handle_[m[K = this->add_on_set_parameters_callback(
+[1.977s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.992s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:131:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_rate_timer_[m[K’ was not declared in this scope
+[1.992s]   131 |     [01;31m[Kframe_rate_timer_[m[K = create_wall_timer(
+[1.992s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.002s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:134:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.002s]   134 |     [01;31m[Ktimer_[m[K = create_wall_timer(  // 周期自检/重连
+[2.002s]       |     [01;31m[K^~~~~~[m[K
+[2.002s]       |     [32m[Ktimer_t[m[K
+[2.006s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::ensureConnected()[m[K’:
+[2.006s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:148:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmtx_[m[K’ was not declared in this scope
+[2.006s]   148 |     std::lock_guard<std::mutex> lk([01;31m[Kmtx_[m[K);
+[2.006s]       |                                    [01;31m[K^~~~[m[K
+[2.012s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:149:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kconnected_[m[K’ was not declared in this scope
+[2.012s]   149 |     if ([01;31m[Kconnected_[m[K) return;
+[2.012s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.016s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:152:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_[m[K’ was not declared in this scope
+[2.016s]   152 |     if (openBySnOrIp([01;31m[Kserial_[m[K, ip_)) {
+[2.016s]       |                      [01;31m[K^~~~~~~[m[K
+[2.021s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:152:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kip_[m[K’ was not declared in this scope
+[2.021s]   152 |     if (openBySnOrIp(serial_, [01;31m[Kip_[m[K)) {
+[2.021s]       |                               [01;31m[K^~~[m[K
+[2.026s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:153:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kconnected_[m[K’ was not declared in this scope
+[2.026s]   153 |       [01;31m[Kconnected_[m[K = true;
+[2.026s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.031s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kbool HikUsbBgr8Pub::openBySnOrIp(const string&, const string&)[m[K’:
+[2.031s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:179:31:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.032s]   179 |     ret = MV_CC_CreateHandle(&[01;31m[Khandle_[m[K, list.pDeviceInfo[idx]);
+[2.032s]       |                               [01;31m[K^~~~~~~[m[K
+[2.037s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:198:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kacq_fps_[m[K’ was not declared in this scope
+[2.037s]   198 |     MV_CC_SetFloatValue(handle_, "AcquisitionFrameRate", [01;31m[Kacq_fps_[m[K);
+[2.037s]       |                                                          [01;31m[K^~~~~~~~[m[K
+[2.044s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:201:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_auto_[m[K’ was not declared in this scope
+[2.044s]   201 |     MV_CC_SetEnumValue(handle_, "ExposureAuto", [01;31m[Kexposure_auto_[m[K);
+[2.044s]       |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.051s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:202:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_time_[m[K’ was not declared in this scope
+[2.051s]   202 |     if (exposure_auto_ == 0) MV_CC_SetFloatValue(handle_, "ExposureTime", [01;31m[Kexposure_time_[m[K);
+[2.051s]       |                                                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.057s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:203:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_auto_[m[K’ was not declared in this scope
+[2.057s]   203 |     MV_CC_SetEnumValue(handle_, "GainAuto", [01;31m[Kgain_auto_[m[K);
+[2.057s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[2.061s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:204:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_[m[K’ was not declared in this scope
+[2.061s]   204 |     if (gain_auto_ == 0) MV_CC_SetFloatValue(handle_, "Gain", [01;31m[Kgain_[m[K);
+[2.061s]       |                                                               [01;31m[K^~~~~[m[K
+[2.070s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:207:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pixel_enum_[m[K’ was not declared in this scope
+[2.070s]   207 |     if ([01;31m[Kcamera_pixel_enum_[m[K != 0) {
+[2.070s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.074s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::closeDevice()[m[K’:
+[2.074s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:227:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmtx_[m[K’ was not declared in this scope
+[2.074s]   227 |     std::lock_guard<std::mutex> lk([01;31m[Kmtx_[m[K);
+[2.074s]       |                                    [01;31m[K^~~~[m[K
+[2.080s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::closeDeviceNoLock()[m[K’:
+[2.080s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:231:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.080s]   231 |     if ([01;31m[Khandle_[m[K) {
+[2.081s]       |         [01;31m[K^~~~~~~[m[K
+[2.085s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:237:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kconnected_[m[K’ was not declared in this scope
+[2.086s]   237 |     [01;31m[Kconnected_[m[K = false;
+[2.087s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.087s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In static member function ‘[01m[Kstatic void HikUsbBgr8Pub::OnException(unsigned int, void*)[m[K’:
+[2.087s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:244:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass HikUsbBgr8Pub[m[K’ has no member named ‘[01m[Kconnected_[m[K’
+[2.087s]   244 |     self->[01;31m[Kconnected_[m[K = false;
+[2.087s]       |           [01;31m[K^~~~~~~~~~[m[K
+[2.089s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::printFrameRate()[m[K’:
+[2.089s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:251:10:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.089s]   251 |     if (![01;31m[Khandle_[m[K) return;
+[2.089s]       |          [01;31m[K^~~~~~~[m[K
+[2.094s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:254:34:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.094s]   254 |     int ret = MV_CC_GetFrameRate([01;31m[Khandle_[m[K, &frameRate);
+[2.094s]       |                                  [01;31m[K^~~~~~~[m[K
+[2.099s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::startGrab()[m[K’:
+[2.099s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:265:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ was not declared in this scope
+[2.099s]   265 |     [01;31m[Krunning_[m[K.store(true);
+[2.099s]       |     [01;31m[K^~~~~~~~[m[K
+[2.103s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:266:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kth_[m[K’ was not declared in this scope
+[2.103s]   266 |     [01;31m[Kth_[m[K = std::thread([this]{ this->grabLoop(); });
+[2.103s]       |     [01;31m[K^~~[m[K
+[2.108s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::stopGrab()[m[K’:
+[2.108s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:269:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ was not declared in this scope
+[2.108s]   269 |     [01;31m[Krunning_[m[K.store(false);
+[2.108s]       |     [01;31m[K^~~~~~~~[m[K
+[2.112s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:270:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kth_[m[K’ was not declared in this scope
+[2.112s]   270 |     if ([01;31m[Kth_[m[K.joinable()) th_.join();
+[2.112s]       |         [01;31m[K^~~[m[K
+[2.117s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::grabLoop()[m[K’:
+[2.117s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:278:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ was not declared in this scope
+[2.117s]   278 |     while (rclcpp::ok() && [01;31m[Krunning_[m[K.load()) {
+[2.117s]       |                            [01;31m[K^~~~~~~~[m[K
+[2.123s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:279:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconnected_[m[K’ was not declared in this scope
+[2.123s]   279 |       if (![01;31m[Kconnected_[m[K || !handle_) {
+[2.123s]       |            [01;31m[K^~~~~~~~~~[m[K
+[2.127s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:279:27:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.128s]   279 |       if (!connected_ || ![01;31m[Khandle_[m[K) {
+[2.128s]       |                           [01;31m[K^~~~~~~[m[K
+[2.132s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:285:38:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.133s]   285 |       int ret = MV_CC_GetImageBuffer([01;31m[Khandle_[m[K, &frame, 1000); // 1s 超时
+[2.133s]       |                                      [01;31m[K^~~~~~~[m[K
+[2.134s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:290:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knext_buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.134s]   290 |       std::vector<uint8_t>& [01;35m[Knext_buffer[m[K = use_buffer1 ? buffer2 : buffer1;
+[2.134s]       |                             [01;35m[K^~~~~~~~~~~[m[K
+[2.143s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::processFrame(const MV_FRAME_OUT&, std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[2.143s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:312:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_encoding_[m[K’ was not declared in this scope
+[2.143s]   312 |     size_t pixel_size = ([01;31m[Kpublish_encoding_[m[K == "mono8") ? 1 : 3;
+[2.143s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.151s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:316:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kdst_pixel_type_[m[K’ was not declared in this scope
+[2.151s]   316 |     if (fi.enPixelType == [01;31m[Kdst_pixel_type_[m[K && fi.nFrameLen >= need) {
+[2.151s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.156s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:330:40:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.156s]   330 |       int ret = MV_CC_ConvertPixelType([01;31m[Khandle_[m[K, &conv);
+[2.156s]       |                                        [01;31m[K^~~~~~~[m[K
+[2.161s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::publishImage(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[2.161s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:341:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id_[m[K’ was not declared in this scope
+[2.161s]   341 |     msg.header.frame_id = [01;31m[Kframe_id_[m[K;
+[2.161s]       |                           [01;31m[K^~~~~~~~~[m[K
+[2.165s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:342:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kfi[m[K’ was not declared in this scope
+[2.165s]   342 |     msg.height = [01;31m[Kfi[m[K.nHeight;
+[2.165s]       |                  [01;31m[K^~[m[K
+[2.173s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:344:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_encoding_[m[K’ was not declared in this scope
+[2.174s]   344 |     msg.encoding = [01;31m[Kpublish_encoding_[m[K;
+[2.174s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.179s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:349:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[2.179s]   349 |     [01;31m[Kpub_[m[K->publish(std::move(msg));
+[2.179s]       |     [01;31m[K^~~~[m[K
+[2.183s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult HikUsbBgr8Pub::onParamSet(const std::vector<rclcpp::Parameter>&)[m[K’:
+[2.183s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:355:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmtx_[m[K’ was not declared in this scope
+[2.183s]   355 |     std::lock_guard<std::mutex> lk([01;31m[Kmtx_[m[K);
+[2.183s]       |                                    [01;31m[K^~~~[m[K
+[2.192s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:361:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_auto_[m[K’ was not declared in this scope
+[2.192s]   361 |           [01;31m[Kexposure_auto_[m[K = p.as_int();
+[2.192s]       |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.197s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:362:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.197s]   362 |           if ([01;31m[Khandle_[m[K) {
+[2.197s]       |               [01;31m[K^~~~~~~[m[K
+[2.204s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:364:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_time_[m[K’ was not declared in this scope
+[2.205s]   364 |             if (exposure_auto_ == 0) MV_CC_SetFloatValue(handle_, "ExposureTime", [01;31m[Kexposure_time_[m[K);
+[2.205s]       |                                                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.212s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:367:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_time_[m[K’ was not declared in this scope
+[2.212s]   367 |           [01;31m[Kexposure_time_[m[K = p.as_double();
+[2.212s]       |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.217s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:368:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.217s]   368 |           if ([01;31m[Khandle_[m[K && exposure_auto_ == 0) {
+[2.217s]       |               [01;31m[K^~~~~~~[m[K
+[2.224s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:368:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kexposure_auto_[m[K’ was not declared in this scope
+[2.224s]   368 |           if (handle_ && [01;31m[Kexposure_auto_[m[K == 0) {
+[2.225s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.230s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:372:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_auto_[m[K’ was not declared in this scope
+[2.230s]   372 |           [01;31m[Kgain_auto_[m[K = p.as_int();
+[2.230s]       |           [01;31m[K^~~~~~~~~~[m[K
+[2.235s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:373:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.235s]   373 |           if ([01;31m[Khandle_[m[K) {
+[2.235s]       |               [01;31m[K^~~~~~~[m[K
+[2.239s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:375:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_[m[K’ was not declared in this scope
+[2.239s]   375 |             if (gain_auto_ == 0) MV_CC_SetFloatValue(handle_, "Gain", [01;31m[Kgain_[m[K);
+[2.239s]       |                                                                       [01;31m[K^~~~~[m[K
+[2.243s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:378:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_[m[K’ was not declared in this scope
+[2.243s]   378 |           [01;31m[Kgain_[m[K = p.as_double();
+[2.243s]       |           [01;31m[K^~~~~[m[K
+[2.247s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:379:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.248s]   379 |           if ([01;31m[Khandle_[m[K && gain_auto_ == 0) {
+[2.248s]       |               [01;31m[K^~~~~~~[m[K
+[2.253s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:379:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kgain_auto_[m[K’ was not declared in this scope
+[2.253s]   379 |           if (handle_ && [01;31m[Kgain_auto_[m[K == 0) {
+[2.253s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[2.258s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:383:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kacq_fps_[m[K’ was not declared in this scope
+[2.258s]   383 |           [01;31m[Kacq_fps_[m[K = p.as_double();
+[2.259s]       |           [01;31m[K^~~~~~~~[m[K
+[2.263s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:384:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.263s]   384 |           if ([01;31m[Khandle_[m[K) {
+[2.263s]       |               [01;31m[K^~~~~~~[m[K
+[2.268s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:396:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_[m[K’ was not declared in this scope
+[2.269s]   396 |           if ([01;31m[Khandle_[m[K) {
+[2.269s]       |               [01;31m[K^~~~~~~[m[K
+[2.269s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of input
+[2.269s]   407 |               res.successful = false; res.reason
+[2.269s]       |                                                 [01;31m[K^[m[K
+[2.269s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:43:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.269s]   407 |               res.successful = false; [01;35m[Kres.reason[m[K
+[2.269s]       |                                       [01;35m[K~~~~^~~~~~[m[K
+[2.269s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.269s]   407 |               res.successful = false; res.reason
+[2.269s]       |                                                 [01;31m[K^[m[K
+[2.269s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:406:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.270s]   406 |             if (r2 != MV_OK) [01;36m[K{[m[K
+[2.270s]       |                              [01;36m[K^[m[K
+[2.270s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.270s]   407 |               res.successful = false; res.reason
+[2.270s]       |                                                 [01;31m[K^[m[K
+[2.270s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:396:24:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.270s]   396 |           if (handle_) [01;36m[K{[m[K
+[2.270s]       |                        [01;36m[K^[m[K
+[2.270s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.270s]   407 |               res.successful = false; res.reason
+[2.270s]       |                                                 [01;31m[K^[m[K
+[2.270s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:388:52:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.270s]   388 |         } else if (p.get_name() == "pixel_format") [01;36m[K{[m[K
+[2.270s]       |                                                    [01;36m[K^[m[K
+[2.270s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.271s]   407 |               res.successful = false; res.reason
+[2.271s]       |                                                 [01;31m[K^[m[K
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:359:11:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.271s]   359 |       try [01;36m[K{[m[K
+[2.271s]       |           [01;36m[K^[m[K
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ at end of input
+[2.271s]   407 |               res.successful = false; res.reason
+[2.271s]       |                                                 [01;31m[K^[m[K
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ at end of input
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected type-specifier at end of input
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ at end of input
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+[2.271s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.272s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:358:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.272s]   358 |     for (const auto& p : params) [01;36m[K{[m[K
+[2.272s]       |                                  [01;36m[K^[m[K
+[2.272s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.272s]   407 |               res.successful = false; res.reason
+[2.272s]       |                                                 [01;31m[K^[m[K
+[2.272s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:354:60:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.272s]   354 |   onParamSet(const std::vector<rclcpp::Parameter>& params) [01;36m[K{[m[K
+[2.272s]       |                                                            [01;36m[K^[m[K
+[2.272s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.272s]   407 |               res.successful = false; res.reason
+[2.272s]       |                                                 [01;35m[K^[m[K
+[2.272s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K At global scope:
+[2.272s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:407:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.635s] gmake[2]: *** [CMakeFiles/se.dir/build.make:76：CMakeFiles/se.dir/src/se.cpp.o] 错误 1
+[2.636s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/se.dir/all] 错误 2
+[2.636s] gmake: *** [Makefile:146：all] 错误 2
+[2.638s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20

@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target se[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/se.dir/src/se.cpp.o[0m
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In function ‘[01m[Kdouble GetCameraFrameRate(MV_CC_DEVICE_INFO*)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:4:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpDeviceInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    4 | double GetCameraFrameRate([01;35m[KMV_CC_DEVICE_INFO* pDeviceInfo[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmemset[m[K’ was not declared in this scope
+   28 |     [01;31m[Kmemset[m[K(&deviceInfo, 0, sizeof(MV_CC_DEVICE_INFO));
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:3:1:[m[K [01;36m[Knote: [m[K‘[01m[Kmemset[m[K’ is defined in header ‘[01m[K<cstring>[m[K’; did you forget to ‘[01m[K#include <cstring>[m[K’?
+    2 | #include "MvCameraControl.h"
+  +++ |+[32m[K#include <cstring>[m[K
+    3 | 
+gmake[2]: *** [CMakeFiles/se.dir/build.make:76：CMakeFiles/se.dir/src/se.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/se.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

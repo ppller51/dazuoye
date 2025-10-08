@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "learning_interface__py",
+		"source" : "/home/pl/ros2_ws1/build/learning_interface/learning_interface__py"
+	}
+}
