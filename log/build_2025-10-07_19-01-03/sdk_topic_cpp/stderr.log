@@ -1,0 +1,14 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In constructor ‘[01m[KHikUsbBgr8Pub::HikUsbBgr8Pub()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:130:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_rate_timer_[m[K’ was not declared in this scope
+  130 |     [01;31m[Kframe_rate_timer_[m[K = create_wall_timer(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:131:58:[m[K [01;31m[Kerror: [m[K‘[01m[KprintFrameRate[m[K’ is not a member of ‘[01m[KHikUsbBgr8Pub[m[K’
+  131 |       std::chrono::seconds(1), std::bind(&HikUsbBgr8Pub::[01;31m[KprintFrameRate[m[K, this));
+      |                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kbool HikUsbBgr8Pub::openBySnOrIp(const string&, const string&)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:193:25:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  193 |   void printFrameRate() [01;31m[K{[m[K
+      |                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/se.dir/build.make:76：CMakeFiles/se.dir/src/se.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/se.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

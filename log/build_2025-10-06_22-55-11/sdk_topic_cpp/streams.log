@@ -1,0 +1,71 @@
+[0.152s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/opt/ros/humble /usr/bin/cmake /home/pl/ros2_ws1/src/haik/sdk_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/sdk_topic_cpp
+[0.186s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.358s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.526s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.553s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.555s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.562s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.605s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.606s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.666s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.682s] -- Found FastRTPS: /opt/ros/humble/share  
+[0.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Looking for pthread.h
+[0.774s] -- Looking for pthread.h - found
+[0.774s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.832s] -- Found Threads: TRUE  
+[0.864s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.886s] -- Hik SDK include: /opt/MVS/include
+[0.886s] -- Hik SDK lib:     /opt/MVS/lib/64/libMvCameraControl.so
+[0.888s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.938s] -- Configured cppcheck include dirs: 
+[0.938s] -- Configured cppcheck exclude dirs and/or files: 
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.940s] -- Added test 'uncrustify' to check C / C++ code style
+[0.940s] -- Configured uncrustify additional arguments: 
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.941s] -- Configuring done
+[0.946s] -- Generating done
+[0.948s] -- Build files have been written to: /home/pl/ros2_ws1/build/sdk_topic_cpp
+[0.955s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/opt/ros/humble /usr/bin/cmake /home/pl/ros2_ws1/src/haik/sdk_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/sdk_topic_cpp
+[0.956s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.989s] [ 50%] [32mBuilding CXX object CMakeFiles/se.dir/src/se.cpp.o[0m
+[4.583s] [100%] [32m[1mLinking CXX executable se[0m
+[4.723s] [100%] Built target se
+[4.732s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[4.733s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/opt/ros/humble /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp
+[4.738s] -- Install configuration: ""
+[4.738s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/se
+[4.738s] -- Set runtime path of "/home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/se" to ""
+[4.738s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/package_run_dependencies/sdk_topic_cpp
+[4.738s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/parent_prefix_path/sdk_topic_cpp
+[4.738s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.sh
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.dsv
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.sh
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.dsv
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.bash
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.sh
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.zsh
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.dsv
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.dsv
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/packages/sdk_topic_cpp
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig.cmake
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig-version.cmake
+[4.739s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.xml
+[4.740s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/opt/ros/humble /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp

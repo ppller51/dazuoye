@@ -1,0 +1,36 @@
+[0.158s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target se[0m
+[0.198s] [ 50%] [32mBuilding CXX object CMakeFiles/se.dir/src/se.cpp.o[0m
+[1.632s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::grabLoop()[m[K’:
+[1.632s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:286:80:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kstd::future<typename std::__invoke_result<typename std::decay<_Tp>::type, typename std::decay<_Args>::type ...>::type> std::async(std::launch, _Fn&&, _Args&& ...) [with _Fn = void (HikUsbBgr8Pub::*)(const _MV_FRAME_OUT_&); _Args = {HikUsbBgr8Pub*, _MV_FRAME_OUT_&}; typename std::__invoke_result<typename std::decay<_Tp>::type, typename std::decay<_Args>::type ...>::type = void; typename std::decay<_Tp>::type = void (HikUsbBgr8Pub::*)(const _MV_FRAME_OUT_&)][m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[1.633s]   286 |       std::async(std::launch::async, &HikUsbBgr8Pub::processFrame, this, frame)[01;35m[K;[m[K
+[1.633s]       |                                                                                [01;35m[K^[m[K
+[1.633s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.633s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.633s]                  from [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:1[m[K:
+[1.633s] [01m[K/usr/include/c++/11/future:1768:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.633s]  1768 |     [01;36m[Kasync[m[K(launch __policy, _Fn&& __fn, _Args&&... __args)
+[1.633s]       |     [01;36m[K^~~~~[m[K
+[3.108s] [100%] [32m[1mLinking CXX executable se[0m
+[3.233s] [100%] Built target se
+[3.241s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[3.242s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp
+[3.248s] -- Install configuration: ""
+[3.248s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/se
+[3.249s] -- Set runtime path of "/home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/se" to ""
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/package_run_dependencies/sdk_topic_cpp
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/parent_prefix_path/sdk_topic_cpp
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.sh
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.dsv
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.sh
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.dsv
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.bash
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.sh
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.zsh
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.dsv
+[3.249s] -- Installing: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.dsv
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/packages/sdk_topic_cpp
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig.cmake
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig-version.cmake
+[3.249s] -- Up-to-date: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.xml
+[3.250s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp

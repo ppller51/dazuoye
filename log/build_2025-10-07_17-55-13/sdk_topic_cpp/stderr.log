@@ -1,0 +1,10 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kbool HikUsbBgr8Pub::openBySnOrIp(const string&, const string&)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:188:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KMVCC_FLOATVALUE frameRate[m[K’
+  188 |     MVCC_FLOATVALUE [01;31m[KframeRate[m[K = {0}; // 使用 MVCC_FLOATVALUE 类型
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:186:21:[m[K [01;36m[Knote: [m[K‘[01m[KMVCC_FLOATVALUE frameRate[m[K’ previously declared here
+  186 |     MVCC_FLOATVALUE [01;36m[KframeRate[m[K{}; // 空初始化器会将所有成员置为零
+      |                     [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/se.dir/build.make:76：CMakeFiles/se.dir/src/se.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/se.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

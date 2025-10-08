@@ -1,0 +1,18 @@
+[0.174s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target se[0m
+[0.218s] [ 50%] [32mBuilding CXX object CMakeFiles/se.dir/src/se.cpp.o[0m
+[1.760s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::grabLoop()[m[K’:
+[1.760s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:304:68:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat*[m[K’ to ‘[01m[KMVCC_FLOATVALUE*[m[K’ {aka ‘[01m[K_MVCC_FLOATVALUE_T*[m[K’}
+[1.760s]   304 |         ret = MV_CC_GetFloatValue(handle_, "AcquisitionFrameRate", [01;31m[K&current_fps[m[K);
+[1.760s]       |                                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[1.760s]       |                                                                    [01;31m[K|[m[K
+[1.760s]       |                                                                    [01;31m[Kfloat*[m[K
+[1.761s] In file included from [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:19[m[K:
+[1.761s] [01m[K/opt/MVS/include/MvCameraControl.h:1091:112:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kint MV_CC_GetFloatValue(void*, const char*, MVCC_FLOATVALUE*)[m[K’
+[1.761s]  1091 | all MV_CC_GetFloatValue(IN void* handle,IN const char* strKey,IN OUT [01;36m[KMVCC_FLOATVALUE *pstFloatValue[m[K);
+[1.761s]       |                                                                      [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.761s] 
+[2.299s] gmake[2]: *** [CMakeFiles/se.dir/build.make:76：CMakeFiles/se.dir/src/se.cpp.o] 错误 1
+[2.299s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/se.dir/all] 错误 2
+[2.299s] gmake: *** [Makefile:146：all] 错误 2
+[2.302s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20

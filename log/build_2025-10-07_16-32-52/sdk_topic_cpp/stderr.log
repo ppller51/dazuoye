@@ -1,0 +1,4 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::grabLoop()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:309:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdst_pix[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  309 |       [01;35m[Kconv.enDstPixelType = dst_pix[m[K;               // 类型已匹配
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K

@@ -1,0 +1,5 @@
+[console_scripts]
+print_fps = sdk_topic.print_fps:main
+sdk_pub = sdk_topic.sdk_pub:main
+sdk_sub = sdk_topic.sdk_sub:main
+

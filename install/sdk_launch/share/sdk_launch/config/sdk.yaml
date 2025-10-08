@@ -1,0 +1,33 @@
+# hk/hik_mvs_ros2/config/sdk.yaml
+/sdk2/hk_pub:
+  ros__parameters:
+    # 连接相关（可选）
+    ip_address: ""            # 指定相机 IP（GigE 推荐）
+    serial_number: ""         # 或者按序列号连接
+
+    # 话题与开关
+    image_topic: "image_raw"  # 发布图像的话题名
+    enable: true              # 启动即采集
+
+    # —— 常用相机参数（可通过 ros2 param set 动态修改）——
+    exposure_time_us: 8000.0  # 曝光时间（微秒）
+    gain_db: 0.0              # 增益（dB）
+    frame_rate: 60.0          # 帧率（Hz）
+    pixel_format: "Mono8"     # 图像格式：Mono8 | BayerRG8 | BGR8 | RGB8
+
+
+/sdk2/hk_sub:
+  ros__parameters:
+    # 连接相关（可选）
+    ip_address: ""            # 指定相机 IP（GigE 推荐）
+    serial_number: ""         # 或者按序列号连接
+
+    # 话题与开关
+    image_topic: "image_raw"  # 发布图像的话题名
+    enable: true              # 启动即采集
+
+    # —— 常用相机参数（可通过 ros2 param set 动态修改）——
+    exposure_time_us: 8000.0  # 曝光时间（微秒）
+    gain_db: 0.0              # 增益（dB）
+    frame_rate: 60.0          # 帧率（Hz）
+    pixel_format: "Mono8"     # 图像格式：Mono8 | BayerRG8 | BGR8 | RGB8
