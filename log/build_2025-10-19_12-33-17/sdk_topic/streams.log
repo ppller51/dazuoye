@@ -1,0 +1,22 @@
+[0.313s] Invoking command in '/home/pl/ros2_ws1/src/haik/sdk_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/sdk_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sdk_topic build --build-base /home/pl/ros2_ws1/build/sdk_topic/build install --record /home/pl/ros2_ws1/build/sdk_topic/install.log --single-version-externally-managed install_data
+[0.447s] running egg_info
+[0.448s] writing ../../../build/sdk_topic/sdk_topic.egg-info/PKG-INFO
+[0.448s] writing dependency_links to ../../../build/sdk_topic/sdk_topic.egg-info/dependency_links.txt
+[0.448s] writing entry points to ../../../build/sdk_topic/sdk_topic.egg-info/entry_points.txt
+[0.448s] writing requirements to ../../../build/sdk_topic/sdk_topic.egg-info/requires.txt
+[0.448s] writing top-level names to ../../../build/sdk_topic/sdk_topic.egg-info/top_level.txt
+[0.449s] reading manifest file '../../../build/sdk_topic/sdk_topic.egg-info/SOURCES.txt'
+[0.450s] writing manifest file '../../../build/sdk_topic/sdk_topic.egg-info/SOURCES.txt'
+[0.450s] running build
+[0.450s] running build_py
+[0.450s] running install
+[0.450s] running install_lib
+[0.451s] running install_data
+[0.451s] running install_egg_info
+[0.452s] removing '/home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages/sdk_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.452s] Copying ../../../build/sdk_topic/sdk_topic.egg-info to /home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages/sdk_topic-0.0.0-py3.10.egg-info
+[0.452s] running install_scripts
+[0.464s] Installing bd script to /home/pl/ros2_ws1/install/sdk_topic/lib/sdk_topic
+[0.464s] Installing cameracalibrator script to /home/pl/ros2_ws1/install/sdk_topic/lib/sdk_topic
+[0.464s] Installing cameracheck script to /home/pl/ros2_ws1/install/sdk_topic/lib/sdk_topic
+[0.464s] writing list of installed files to '/home/pl/ros2_ws1/build/sdk_topic/install.log'

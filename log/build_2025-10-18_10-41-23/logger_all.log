@@ -1,0 +1,638 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x712ab4954700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x712ab4a59a80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x712ab4a59a80>>)
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pl/ros2_ws1'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(calibration_data) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/camera_calibration) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/camera_calibration' with type 'ros.ament_python' and name 'camera_calibration'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/depth_image_proc) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/depth_image_proc' with type 'ros.ament_cmake' and name 'depth_image_proc'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_pipeline) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_pipeline' with type 'ros.ament_cmake' and name 'image_pipeline'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_proc) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_proc' with type 'ros.ament_cmake' and name 'image_proc'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_publisher) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_rotate) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_rotate' with type 'ros.ament_cmake' and name 'image_rotate'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/image_view) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/image_view' with type 'ros.ament_cmake' and name 'image_view'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/stereo_image_proc) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/stereo_image_proc' with type 'ros.ament_cmake' and name 'stereo_image_proc'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tools) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/tracetools_image_pipeline) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'image_pipeline/tracetools_image_pipeline' with type 'ros.ament_cmake' and name 'tracetools_image_pipeline'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(image_pipeline/wiki_files) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_launch) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/haik/sdk_launch' with type 'ros.ament_python' and name 'sdk_launch'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/haik/sdk_topic' with type 'ros.ament_python' and name 'sdk_topic'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/haik/sdk_topic_cpp) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/haik/sdk_topic_cpp' with type 'ros.ament_cmake' and name 'sdk_topic_cpp'
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/pl/ros2_ws1/install
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/camera_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/camera_calibration', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/camera_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'depth_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/depth_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/depth_image_proc', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/depth_image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/image_publisher', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/image_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'image_rotate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/image_rotate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/image_rotate', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/image_rotate', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'image_view' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/image_view', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/image_view', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/image_view', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'sdk_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/sdk_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/sdk_launch', 'merge_install': False, 'path': '/home/pl/ros2_ws1/src/haik/sdk_launch', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'sdk_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/sdk_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/sdk_topic', 'merge_install': False, 'path': '/home/pl/ros2_ws1/src/haik/sdk_topic', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'sdk_topic_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'sdk_topic_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/sdk_topic_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/sdk_topic_cpp', 'merge_install': False, 'path': '/home/pl/ros2_ws1/src/haik/sdk_topic_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'tracetools_image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/tracetools_image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/tracetools_image_pipeline', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/tracetools_image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/image_proc', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'stereo_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/stereo_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/stereo_image_proc', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/stereo_image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pl/ros2_ws1/build/image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pl/ros2_ws1/install/image_pipeline', 'merge_install': False, 'path': '/home/pl/ros2_ws1/image_pipeline/image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[0.235s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pl/ros2_ws1/image_pipeline/tracetools_image_pipeline' with build type 'ament_cmake'
+[0.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pl/ros2_ws1/image_pipeline/tracetools_image_pipeline'
+[0.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pl/ros2_ws1/image_pipeline/camera_calibration' with build type 'ament_python'
+[0.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'ament_prefix_path')
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.ps1'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.dsv'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.sh'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pl/ros2_ws1/image_pipeline/depth_image_proc' with build type 'ament_cmake'
+[0.242s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pl/ros2_ws1/image_pipeline/depth_image_proc'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pl/ros2_ws1/image_pipeline/image_publisher' with build type 'ament_cmake'
+[0.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pl/ros2_ws1/image_pipeline/image_publisher'
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pl/ros2_ws1/image_pipeline/image_rotate' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pl/ros2_ws1/image_pipeline/image_rotate'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pl/ros2_ws1/image_pipeline/image_view' with build type 'ament_cmake'
+[0.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pl/ros2_ws1/image_pipeline/image_view'
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pl/ros2_ws1/src/haik/sdk_launch' with build type 'ament_python'
+[0.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk_launch', 'ament_prefix_path')
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/hook/ament_prefix_path.ps1'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/hook/ament_prefix_path.dsv'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/hook/ament_prefix_path.sh'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pl/ros2_ws1/src/haik/sdk_topic' with build type 'ament_python'
+[0.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk_topic', 'ament_prefix_path')
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/hook/ament_prefix_path.ps1'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/hook/ament_prefix_path.dsv'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/hook/ament_prefix_path.sh'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pl/ros2_ws1/src/haik/sdk_topic_cpp' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pl/ros2_ws1/src/haik/sdk_topic_cpp'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/tracetools_image_pipeline
+[0.388s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pl/ros2_ws1/image_pipeline/camera_calibration'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/depth_image_proc
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_publisher
+[0.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_rotate
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_view
+[0.555s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pl/ros2_ws1/src/haik/sdk_launch'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.724s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pl/ros2_ws1/src/haik/sdk_topic'
+[0.724s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdk_topic_cpp)
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp' for CMake module files
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp' for CMake config files
+[0.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk_topic_cpp', 'cmake_prefix_path')
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/hook/cmake_prefix_path.ps1'
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/hook/cmake_prefix_path.dsv'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/hook/cmake_prefix_path.sh'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/lib'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/bin'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/lib/pkgconfig/sdk_topic_cpp.pc'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/lib/python3.10/site-packages'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/bin'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.sh'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.bash'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.zsh'
+[0.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/sdk_topic_cpp/share/colcon-core/packages/sdk_topic_cpp)
+[0.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdk_topic_cpp)
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp' for CMake module files
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk_topic_cpp', 'cmake_prefix_path')
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/hook/cmake_prefix_path.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/hook/cmake_prefix_path.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/hook/cmake_prefix_path.sh'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/lib'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/bin'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/lib/pkgconfig/sdk_topic_cpp.pc'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/lib/python3.10/site-packages'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic_cpp/bin'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.sh'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.bash'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.zsh'
+[0.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/sdk_topic_cpp/share/colcon-core/packages/sdk_topic_cpp)
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/tracetools_image_pipeline
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/tracetools_image_pipeline -- -j20 -l20
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/image_pipeline/camera_calibration': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/pl/ros2_ws1/build/camera_calibration/build install --record /home/pl/ros2_ws1/build/camera_calibration/install.log --single-version-externally-managed install_data
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/src/haik/sdk_topic': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/sdk_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sdk_topic build --build-base /home/pl/ros2_ws1/build/sdk_topic/build install --record /home/pl/ros2_ws1/build/sdk_topic/install.log --single-version-externally-managed install_data
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/src/haik/sdk_launch': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/sdk_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/sdk_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sdk_launch build --build-base /home/pl/ros2_ws1/build/sdk_launch/build install --record /home/pl/ros2_ws1/build/sdk_launch/install.log --single-version-externally-managed install_data
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/tracetools_image_pipeline -- -j20 -l20
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/tracetools_image_pipeline
+[1.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline' for CMake module files
+[1.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/tracetools_image_pipeline
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline' for CMake config files
+[1.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib'
+[1.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/bin'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib/python3.10/site-packages'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/bin'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[1.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[1.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline' for CMake module files
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline' for CMake config files
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib'
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/bin'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib/python3.10/site-packages'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/tracetools_image_pipeline/bin'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[1.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[1.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pl/ros2_ws1/image_pipeline/image_proc' with build type 'ament_cmake'
+[1.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pl/ros2_ws1/image_pipeline/image_proc'
+[1.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_proc': AMENT_PREFIX_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline:/home/pl/ros2_ws1/install/sdk_topic_cpp:/opt/ros/humble/share:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_proc
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic' for CMake module files
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/src/haik/sdk_topic' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/sdk_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sdk_topic build --build-base /home/pl/ros2_ws1/build/sdk_topic/build install --record /home/pl/ros2_ws1/build/sdk_topic/install.log --single-version-externally-managed install_data
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic' for CMake config files
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic/lib'
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic/bin'
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic/lib/pkgconfig/sdk_topic.pc'
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages'
+[1.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk_topic', 'pythonpath')
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/hook/pythonpath.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/hook/pythonpath.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/hook/pythonpath.sh'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_topic/bin'
+[1.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdk_topic)
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/package.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/package.dsv'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/package.sh'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/package.bash'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic/package.zsh'
+[1.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/sdk_topic/share/colcon-core/packages/sdk_topic)
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/camera_calibration' for CMake module files
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/image_pipeline/camera_calibration' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/pl/ros2_ws1/build/camera_calibration/build install --record /home/pl/ros2_ws1/build/camera_calibration/install.log --single-version-externally-managed install_data
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/camera_calibration' for CMake config files
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/camera_calibration/lib'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/camera_calibration/bin'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/camera_calibration/lib/pkgconfig/camera_calibration.pc'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/camera_calibration/lib/python3.10/site-packages'
+[1.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'pythonpath')
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/hook/pythonpath.ps1'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/hook/pythonpath.dsv'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/hook/pythonpath.sh'
+[1.307s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/camera_calibration/bin'
+[1.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration)
+[1.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/package.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/package.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/package.sh'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/package.bash'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/camera_calibration/share/camera_calibration/package.zsh'
+[1.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/camera_calibration/share/colcon-core/packages/camera_calibration)
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_launch' for CMake module files
+[1.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/src/haik/sdk_launch' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/sdk_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/sdk_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sdk_launch build --build-base /home/pl/ros2_ws1/build/sdk_launch/build install --record /home/pl/ros2_ws1/build/sdk_launch/install.log --single-version-externally-managed install_data
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_launch' for CMake config files
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_launch/lib'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_launch/bin'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_launch/lib/pkgconfig/sdk_launch.pc'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_launch/lib/python3.10/site-packages'
+[1.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk_launch', 'pythonpath')
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/hook/pythonpath.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/hook/pythonpath.dsv'
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/hook/pythonpath.sh'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/sdk_launch/bin'
+[1.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdk_launch)
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/package.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/package.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/package.sh'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/package.bash'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/sdk_launch/share/sdk_launch/package.zsh'
+[1.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/sdk_launch/share/colcon-core/packages/sdk_launch)
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_publisher
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/image_publisher -- -j20 -l20
+[1.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_rotate
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/image_rotate -- -j20 -l20
+[1.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/depth_image_proc
+[1.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/depth_image_proc -- -j20 -l20
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_view
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/image_view -- -j20 -l20
+[4.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/image_proc' returned '0': AMENT_PREFIX_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline:/home/pl/ros2_ws1/install/sdk_topic_cpp:/opt/ros/humble/share:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/image_proc
+[4.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pl/ros2_ws1/build/image_proc': AMENT_PREFIX_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline:/home/pl/ros2_ws1/install/sdk_topic_cpp:/opt/ros/humble/share:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/pl/ros2_ws1/build/image_proc -- -j20 -l20
+[15.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pl/ros2_ws1/build/image_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/image_publisher -- -j20 -l20
+[15.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/image_publisher' for CMake module files
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/image_publisher' for CMake config files
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/image_publisher/bin'
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[15.146s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/image_publisher/lib/python3.10/site-packages'
+[15.146s] Level 1:colcon.colcon_core.environment:checking '/home/pl/ros2_ws1/install/image_publisher/bin'
+[15.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/image_publisher/share/image_publisher/package.ps1'
+[15.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pl/ros2_ws1/install/image_publisher/share/image_publisher/package.dsv'
+[15.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/image_publisher/share/image_publisher/package.sh'
+[15.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/image_publisher/share/image_publisher/package.bash'
+[15.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/pl/ros2_ws1/install/image_publisher/share/image_publisher/package.zsh'
+[15.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pl/ros2_ws1/install/image_publisher/share/colcon-core/packages/image_publisher)
+[29.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[29.855s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.860s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.872s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pl/ros2_ws1/install/local_setup.ps1'
+[29.873s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pl/ros2_ws1/install/_local_setup_util_ps1.py'
+[29.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pl/ros2_ws1/install/setup.ps1'
+[29.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pl/ros2_ws1/install/local_setup.sh'
+[29.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pl/ros2_ws1/install/_local_setup_util_sh.py'
+[29.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pl/ros2_ws1/install/setup.sh'
+[29.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pl/ros2_ws1/install/local_setup.bash'
+[29.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pl/ros2_ws1/install/setup.bash'
+[29.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pl/ros2_ws1/install/local_setup.zsh'
+[29.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pl/ros2_ws1/install/setup.zsh'

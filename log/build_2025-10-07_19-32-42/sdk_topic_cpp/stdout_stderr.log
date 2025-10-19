@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target se[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/se.dir/src/se.cpp.o[0m
-[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::grabLoop()[m[K’:
-[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/se.cpp:286:7:[m[K [01;31m[Kerror: [m[K‘[01m[K_[m[K’ was not declared in this scope
-  286 |       [01;31m[K_[m[K= std::async(std::launch::async, &HikUsbBgr8Pub::processFrame, this, frame);
-      |       [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/se.dir/build.make:76：CMakeFiles/se.dir/src/se.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/se.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

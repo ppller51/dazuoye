@@ -1,0 +1,149 @@
+[0.143s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.158s] /usr/bin/cmake -S/home/pl/ros2_ws1/src/haik/sdk_topic_cpp -B/home/pl/ros2_ws1/build/sdk_topic_cpp --check-build-system CMakeFiles/Makefile.cmake 0
+[0.175s] /usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles /home/pl/ros2_ws1/build/sdk_topic_cpp//CMakeFiles/progress.marks
+[0.182s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.183s] gmake[1]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.183s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/depend
+[0.183s] /usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/depend
+[0.183s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/depend
+[0.183s] /usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/depend
+[0.183s] /usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/depend
+[0.184s] /usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/depend
+[0.184s] /usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/depend
+[0.186s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.186s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/DependInfo.cmake --color=
+[0.186s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.186s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/DependInfo.cmake --color=
+[0.187s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.187s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/biaoding.dir/DependInfo.cmake --color=
+[0.187s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.187s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/chu.dir/DependInfo.cmake --color=
+[0.188s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.188s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/t1.dir/DependInfo.cmake --color=
+[0.189s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.189s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/grab.dir/DependInfo.cmake --color=
+[0.189s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.189s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/camera_publisher.dir/DependInfo.cmake --color=
+[0.192s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.193s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/build
+[0.193s] Dependencies file "CMakeFiles/biaoding.dir/src/biaoding.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/biaoding.dir/compiler_depend.internal".
+[0.193s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.193s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/build
+[0.193s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.193s] /usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/build
+[0.193s] [35m[1mConsolidate compiler generated dependencies of target biaoding[0m
+[0.196s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.196s] gmake[2]: 对“CMakeFiles/shiping.dir/build”无需做任何事。
+[0.196s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.196s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.196s] /usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/build
+[0.197s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.197s] /usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/build
+[0.197s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.197s] /usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/build
+[0.197s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.197s] /usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/build
+[0.201s] [ 14%] Built target shiping
+[0.202s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.202s] gmake[2]: 对“CMakeFiles/se.dir/build”无需做任何事。
+[0.202s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.202s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.202s] gmake[2]: 对“CMakeFiles/t1.dir/build”无需做任何事。
+[0.202s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.203s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.203s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.203s] gmake[2]: 对“CMakeFiles/camera_publisher.dir/build”无需做任何事。
+[0.203s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.203s] gmake[2]: 对“CMakeFiles/chu.dir/build”无需做任何事。
+[0.203s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.203s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.203s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.203s] gmake[2]: 对“CMakeFiles/grab.dir/build”无需做任何事。
+[0.203s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.207s] [ 35%] Built target camera_publisher
+[0.207s] [ 35%] [32mBuilding CXX object CMakeFiles/biaoding.dir/src/biaoding.cpp.o[0m
+[0.207s] [ 50%] Built target chu
+[0.208s] /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/opt/MVS/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/image_transport -isystem /opt/ros/humble/include/cv_bridge -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/message_filters -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/biaoding.dir/src/biaoding.cpp.o -MF CMakeFiles/biaoding.dir/src/biaoding.cpp.o.d -o CMakeFiles/biaoding.dir/src/biaoding.cpp.o -c /home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp
+[0.209s] [ 64%] Built target se
+[0.209s] [ 78%] Built target t1
+[0.209s] [ 92%] Built target grab
+[0.216s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:1:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #!
+[0.216s]     1 | #[01;31m[K![m[K/usr/bin/env python
+[0.216s]       |  [01;31m[K^[m[K
+[0.216s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:14:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00004f60\U000053ef\U00004ee5\U00006839\U0000636e\U00009700\U00008981\U00008c03\U00006574\U00006807\U00005b9a\U0000677f\U00007684\U00005c3a\U00005bf8\U0000ff08\U00006bd4\U0000598228
+[0.216s]    14 |         # [01;31m[K你可以根据需要调整标定板的尺寸（比如28[m[K.9mm的格子大小）
+[0.216s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.216s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:15:31:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.217s]    15 |         self.board_width = 9  [01;31m[K#[m[K 标定板上的内角点数量（横向）
+[0.217s]       |                               [01;31m[K^[m[K
+[0.217s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:16:32:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.217s]    16 |         self.board_height = 6  [01;31m[K#[m[K 标定板上的内角点数量（纵向）
+[0.217s]       |                                [01;31m[K^[m[K
+[0.217s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:17:34:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.217s]    17 |         self.square_size = 28.9  [01;31m[K#[m[K 格子的物理尺寸（单位：mm）
+[0.217s]       |                                  [01;31m[K^[m[K
+[0.217s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:19:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00006807\U00005b9a\U0000677f\U00004e0a\U000076843D\U00005750\U00006807
+[0.217s]    19 |         # [01;31m[K标定板上的3D坐标[m[K
+[0.217s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.217s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:20:31:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.218s]    20 |         self.obj_points = []  [01;31m[K#[m[K 3D点（在世界坐标系中的位置）
+[0.218s]       |                               [01;31m[K^[m[K
+[0.218s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:21:31:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.218s]    21 |         self.img_points = []  [01;31m[K#[m[K 2D点（在图像中的位置）
+[0.218s]       |                               [01;31m[K^[m[K
+[0.218s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:23:11:[m[K [01;35m[Kwarning: [m[Kstyle of line directive is a GCC extension
+[0.218s]    23 |         # [01;35m[K3D点的世界坐标系假设，z[m[K=0平面
+[0.218s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.218s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:23:11:[m[K [01;31m[Kerror: [m[K"3D点的世界坐标系假设，z" after # is not a positive integer
+[0.218s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:26:40:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.218s]    26 |         self.objp *= self.square_size  [01;31m[K#[m[K 按照格子大小调整
+[0.218s]       |                                        [01;31m[K^[m[K
+[0.218s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:28:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U0000521b\U00005efa\U00007a97\U000053e3\U00007528\U00004e8e\U0000663e\U0000793a\U000056fe\U000050cf
+[0.218s]    28 |         # [01;31m[K创建窗口用于显示图像[m[K
+[0.218s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.219s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:31:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008ba2\U00009605\U000056fe\U000050cf
+[0.219s]    31 |         # [01;31m[K订阅图像[m[K
+[0.219s]       |           [01;31m[K^~~~~~~~[m[K
+[0.219s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:38:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00005c06ROS\U00006d88\U0000606f\U00008f6c\U00006362\U00004e3aOpenCV\U000056fe\U000050cf
+[0.219s]    38 |         # [01;31m[K将ROS消息转换为OpenCV图像[m[K
+[0.219s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.219s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:39:68:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+[0.219s]    39 |         cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding=[01;35m[K'bgr8'[m[K)
+[0.219s]       |                                                                    [01;35m[K^~~~~~[m[K
+[0.219s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:41:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008f6c\U00006362\U00004e3a\U00007070\U00005ea6\U000056fe\U000050cf
+[0.219s]    41 |         # [01;31m[K转换为灰度图像[m[K
+[0.219s]       |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.219s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:44:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U000067e5\U0000627e\U00006807\U00005b9a\U0000677f\U000089d2\U000070b9
+[0.220s]    44 |         # [01;31m[K查找标定板角点[m[K
+[0.220s]       |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.220s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:51:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00005728\U000056fe\U000050cf\U00004e0a\U00007ed8\U00005236\U000089d2\U000070b9\U00005e76\U0000663e\U0000793a
+[0.220s]    51 |             # [01;31m[K在图像上绘制角点并显示[m[K
+[0.220s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.220s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:56:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00005982\U0000679c\U00006536\U000096c6\U00005230\U00008db3\U0000591f\U00007684\U000089d2\U000070b9\U00006570\U0000636e\U0000ff0c\U00005f00\U000059cb\U00006807\U00005b9a
+[0.220s]    56 |         # [01;31m[K如果收集到足够的角点数据，开始标定[m[K
+[0.220s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.220s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:57:40:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.220s]    57 |         if len(self.img_points) > 10:  [01;31m[K#[m[K 你可以根据需要调整角点的数量
+[0.220s]       |                                        [01;31m[K^[m[K
+[0.220s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:61:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U000076f8\U0000673a\U00006807\U00005b9a
+[0.220s]    61 |         # [01;31m[K相机标定[m[K
+[0.220s]       |           [01;31m[K^~~~~~~~[m[K
+[0.220s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:70:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00004fdd\U00005b58\U00006807\U00005b9a\U00007ed3\U0000679c
+[0.221s]    70 |             # [01;31m[K保存标定结果[m[K
+[0.221s]       |               [01;31m[K^~~~~~~~~~~~[m[K
+[0.221s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:76:16:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.221s]    76 | if __name__ == [01;35m[K'__main__'[m[K:
+[0.221s]       |                [01;35m[K^~~~~~~~~~[m[K
+[0.221s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:77:21:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.221s]    77 |     rospy.init_node([01;35m[K'camera_calibration_node'[m[K)
+[0.221s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.221s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:2:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kimport[m[K’ does not name a type
+[0.221s]     2 | [01;31m[Kimport[m[K rospy
+[0.221s]       | [01;31m[K^~~~~~[m[K
+[0.221s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:2:1:[m[K [01;36m[Knote: [m[KC++20 ‘[01m[Kimport[m[K’ only available with ‘[01m[K-fmodules-ts[m[K’
+[0.221s] gmake[2]: *** [CMakeFiles/biaoding.dir/build.make:79：CMakeFiles/biaoding.dir/src/biaoding.cpp.o] 错误 1
+[0.221s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.222s] gmake[1]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.222s] gmake[1]: *** [CMakeFiles/Makefile2:256：CMakeFiles/biaoding.dir/all] 错误 2
+[0.222s] gmake: *** [Makefile:149：all] 错误 2
+[0.222s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20

@@ -1,0 +1,76 @@
+[0.024s] Invoking command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/tracetools_image_pipeline
+[0.493s] -- The C compiler identification is GNU 11.4.0
+[0.494s] -- The CXX compiler identification is GNU 11.4.0
+[0.494s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.495s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.495s] -- Detecting C compile features
+[0.495s] -- Detecting C compile features - done
+[0.496s] -- Detecting CXX compiler ABI info
+[0.496s] -- Detecting CXX compiler ABI info - done
+[0.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.497s] -- Detecting CXX compile features
+[0.498s] -- Detecting CXX compile features - done
+[0.498s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.498s] -- Found Python3: /home/pl/anaconda3/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.530s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.530s] -- Checking for module 'lttng-ust'
+[0.532s] --   No package 'lttng-ust' found
+[0.537s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.630s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.631s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.631s] -- Configured cppcheck include dirs: 
+[0.631s] -- Configured cppcheck exclude dirs and/or files: 
+[0.632s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.633s] -- Configured cpplint exclude dirs and/or files: 
+[0.634s] -- Added test 'lint_cmake' to check CMake code style
+[0.636s] -- Added test 'uncrustify' to check C / C++ code style
+[0.636s] -- Configured uncrustify additional arguments: 
+[0.636s] -- Added test 'xmllint' to check XML markup files
+[0.638s] -- Configuring done
+[0.643s] -- Generating done
+[0.645s] -- Build files have been written to: /home/pl/ros2_ws1/build/tracetools_image_pipeline
+[0.648s] Invoked command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pl/ros2_ws1/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/pl/ros2_ws1/install/tracetools_image_pipeline
+[0.650s] Invoking command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/tracetools_image_pipeline -- -j20 -l20
+[0.695s] [ 20%] [32mBuilding C object CMakeFiles/tracetools_image_pipeline.dir/src/tracetools.c.o[0m
+[0.697s] [ 40%] [32mBuilding CXX object CMakeFiles/tracetools_image_pipeline.dir/src/utils.cpp.o[0m
+[0.815s] [ 60%] [32m[1mLinking CXX shared library libtracetools_image_pipeline.so[0m
+[0.855s] [ 60%] Built target tracetools_image_pipeline
+[0.873s] [ 80%] [32mBuilding C object CMakeFiles/status.dir/src/status.c.o[0m
+[0.896s] [100%] [32m[1mLinking C executable status[0m
+[0.930s] [100%] Built target status
+[0.942s] Invoked command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/tracetools_image_pipeline -- -j20 -l20
+[0.944s] Invoking command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/tracetools_image_pipeline
+[0.953s] -- Install configuration: ""
+[0.953s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+[0.953s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+[0.953s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+[0.954s] -- Set runtime path of "/home/pl/ros2_ws1/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status" to ""
+[0.954s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/include
+[0.954s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/include/tracetools_image_pipeline
+[0.954s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+[0.954s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+[0.955s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+[0.955s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+[0.955s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[0.955s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+[0.955s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+[0.955s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+[0.955s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+[0.956s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+[0.956s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+[0.956s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+[0.956s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+[0.956s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+[0.956s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+[0.956s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[0.957s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+[0.957s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[0.957s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+[0.957s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+[0.957s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.957s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+[0.958s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+[0.958s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+[0.958s] -- Installing: /home/pl/ros2_ws1/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml
+[0.960s] Invoked command in '/home/pl/ros2_ws1/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/tracetools_image_pipeline

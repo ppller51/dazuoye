@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pl/ros2_ws1/build/sdk_topic_cpp/se" "/home/pl/ros2_ws1/build/sdk_topic_cpp/shiping" "/home/pl/ros2_ws1/build/sdk_topic_cpp/gr" "TARGETS" "se" "shiping" "gr" "DESTINATION" "lib/sdk_topic_cpp")

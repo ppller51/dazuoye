@@ -1,9 +1,0 @@
-{
-  "package_name": "learning_interface",
-  "non_idl_tuples": [
-    "/home/pl/ros2_ws1/src/haik/learning_interface:msg/ObjectPosition.msg",
-    "/home/pl/ros2_ws1/src/haik/learning_interface:srv/AddTwoInts.srv",
-    "/home/pl/ros2_ws1/src/haik/learning_interface:srv/GetObjectPosition.srv",
-    "/home/pl/ros2_ws1/src/haik/learning_interface:action/MoveCircle.action"
-  ]
-}

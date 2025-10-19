@@ -10,10 +10,10 @@ setup.py
 ../../../build/sdk_topic/sdk_topic.egg-info/zip-safe
 resource/sdk_topic
 sdk_topic/__init__.py
-sdk_topic/echo_image_header.py
-sdk_topic/print_fps.py
-sdk_topic/sdk_pub.py
-sdk_topic/sdk_sub.py
+sdk_topic/bd.py
+sdk_topic/calibrator.py
+sdk_topic/camera_calibrator.py
+sdk_topic/camera_checker.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

@@ -1,1 +1,1 @@
-rclcpp;sensor_msgs;ament_lint_auto;ament_lint_common
+rclcpp;vision_msgs;sensor_msgs;image_transport;cv_bridge;ament_lint_auto;ament_lint_common

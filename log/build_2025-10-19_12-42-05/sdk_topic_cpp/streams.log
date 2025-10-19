@@ -1,0 +1,57 @@
+[0.139s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.153s] /usr/bin/cmake -S/home/pl/ros2_ws1/src/haik/sdk_topic_cpp -B/home/pl/ros2_ws1/build/sdk_topic_cpp --check-build-system CMakeFiles/Makefile.cmake 0
+[0.163s] /usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles /home/pl/ros2_ws1/build/sdk_topic_cpp//CMakeFiles/progress.marks
+[0.167s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.168s] gmake[1]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.169s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/depend
+[0.169s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/depend
+[0.169s] /usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/depend
+[0.170s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.171s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/DependInfo.cmake --color=
+[0.171s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.171s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/DependInfo.cmake --color=
+[0.172s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.172s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir/DependInfo.cmake --color=
+[0.177s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.178s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.178s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/build
+[0.178s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/build
+[0.179s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.180s] gmake[2]: 对“CMakeFiles/shiping.dir/build”无需做任何事。
+[0.180s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.180s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.180s] /usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/build
+[0.181s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.181s] gmake[2]: 对“CMakeFiles/se.dir/build”无需做任何事。
+[0.181s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.184s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.184s] gmake[2]: 对“CMakeFiles/gr.dir/build”无需做任何事。
+[0.184s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.187s] [ 33%] Built target shiping
+[0.187s] [ 66%] Built target se
+[0.188s] [100%] Built target gr
+[0.189s] gmake[1]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.189s] /usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles 0
+[0.198s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.207s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp
+[0.212s] -- Install configuration: ""
+[0.213s] -- Execute custom install script
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/se
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/shiping
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/gr
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/package_run_dependencies/sdk_topic_cpp
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/parent_prefix_path/sdk_topic_cpp
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.sh
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.dsv
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.sh
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.dsv
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.bash
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.sh
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.zsh
+[0.213s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.dsv
+[0.214s] -- Symlinking: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.dsv
+[0.219s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/packages/sdk_topic_cpp
+[0.219s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig.cmake
+[0.219s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig-version.cmake
+[0.219s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.xml
+[0.221s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp

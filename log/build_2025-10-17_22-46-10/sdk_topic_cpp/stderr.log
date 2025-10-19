@@ -1,0 +1,22 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:1[m[K:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:[m[K In member function ‘[01m[Kvoid HikUsbCalibratorNode::calibrateCamera(const Size&)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:487:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct cv::Ptr<cv::Formatted>[m[K’ has no member named ‘[01m[Kc_str[m[K’
+  487 |               cv::format(camera_matrix, cv::Formatter::FMT_DEFAULT).[01;31m[Kc_str[m[K());
+      |                                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:489:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct cv::Ptr<cv::Formatted>[m[K’ has no member named ‘[01m[Kc_str[m[K’
+  489 |               cv::format(dist_coeffs, cv::Formatter::FMT_DEFAULT).[01;31m[Kc_str[m[K());
+      |                                                                   [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/biaoding.dir/build.make:79：CMakeFiles/biaoding.dir/src/biaoding.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:256：CMakeFiles/biaoding.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

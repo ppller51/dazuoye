@@ -1,0 +1,88 @@
+/usr/bin/cmake -S/home/pl/ros2_ws1/src/haik/sdk_topic_cpp -B/home/pl/ros2_ws1/build/sdk_topic_cpp --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/pl/ros2_ws1/src/haik/sdk_topic_cpp/CMakeLists.txt
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Hik SDK include: /opt/MVS/include
+-- Hik SDK lib:     /opt/MVS/lib/64/libMvCameraControl.so
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pl/ros2_ws1/build/sdk_topic_cpp
+/usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles /home/pl/ros2_ws1/build/sdk_topic_cpp//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/depend
+/usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/depend
+/usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/depend
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir/DependInfo.cmake --color=
+Dependencies file "CMakeFiles/se.dir/src/se.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/compiler_depend.internal".
+Dependencies file "CMakeFiles/shiping.dir/src/shiping.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/compiler_depend.internal".
+Dependencies file "CMakeFiles/gr.dir/src/gr.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir/compiler_depend.internal".
+[35m[1mConsolidate compiler generated dependencies of target shiping[0m
+[35m[1mConsolidate compiler generated dependencies of target se[0m
+[35m[1mConsolidate compiler generated dependencies of target gr[0m
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/build
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/build
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/build
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/shiping.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/gr.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/se.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[ 33%] Built target shiping
+[ 66%] Built target gr
+[100%] Built target se
+gmake[1]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles 0
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/se
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/shiping
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/gr
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/package_run_dependencies/sdk_topic_cpp
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/parent_prefix_path/sdk_topic_cpp
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.sh
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.bash
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.sh
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.dsv
+-- Symlinking: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.dsv
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/packages/sdk_topic_cpp
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig.cmake
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig-version.cmake
+-- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.xml

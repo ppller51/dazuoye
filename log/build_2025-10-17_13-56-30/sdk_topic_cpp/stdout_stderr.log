@@ -1,0 +1,77 @@
+/usr/bin/cmake -S/home/pl/ros2_ws1/src/haik/sdk_topic_cpp -B/home/pl/ros2_ws1/build/sdk_topic_cpp --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles /home/pl/ros2_ws1/build/sdk_topic_cpp//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/depend
+/usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/depend
+/usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/depend
+/usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/depend
+/usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/depend
+/usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/depend
+/usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/depend
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/biaoding.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/grab.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/chu.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/camera_publisher.dir/DependInfo.cmake --color=
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/t1.dir/DependInfo.cmake --color=
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/build
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/build
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/build
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/build
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/build
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/shiping.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+Dependencies file "CMakeFiles/biaoding.dir/src/biaoding.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/biaoding.dir/compiler_depend.internal".
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/se.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[35m[1mConsolidate compiler generated dependencies of target biaoding[0m
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+/usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/build
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/t1.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/chu.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/grab.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[ 14%] Built target shiping
+[ 28%] Built target se
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[ 42%] Built target chu
+/usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/build
+[ 57%] Built target grab
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: 对“CMakeFiles/camera_publisher.dir/build”无需做任何事。
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[ 71%] Built target t1
+gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[ 85%] Built target camera_publisher
+[ 92%] [32mBuilding CXX object CMakeFiles/biaoding.dir/src/biaoding.cpp.o[0m
+/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/opt/MVS/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/image_transport -isystem /opt/ros/humble/include/cv_bridge -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/message_filters -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/biaoding.dir/src/biaoding.cpp.o -MF CMakeFiles/biaoding.dir/src/biaoding.cpp.o.d -o CMakeFiles/biaoding.dir/src/biaoding.cpp.o -c /home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:[m[K In constructor ‘[01m[KHikUsbBgr8Pub::HikUsbBgr8Pub()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:124:58:[m[K [01;31m[Kerror: [m[K‘[01m[KprintFrameRate[m[K’ is not a member of ‘[01m[KHikUsbBgr8Pub[m[K’
+  124 |       std::chrono::seconds(1), std::bind(&HikUsbBgr8Pub::[01;31m[KprintFrameRate[m[K, this));
+      |                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[2]: *** [CMakeFiles/biaoding.dir/build.make:79：CMakeFiles/biaoding.dir/src/biaoding.cpp.o] 错误 1
+gmake[1]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+gmake[1]: *** [CMakeFiles/Makefile2:256：CMakeFiles/biaoding.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

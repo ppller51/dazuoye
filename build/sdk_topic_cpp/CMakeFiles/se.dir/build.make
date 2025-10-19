@@ -27,6 +27,9 @@
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -99,6 +102,7 @@ se: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 se: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 se: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 se: /opt/MVS/lib/64/libMvCameraControl.so
+se: /usr/lib/x86_64-linux-gnu/libcurl.so
 se: /opt/ros/humble/lib/liblibstatistics_collector.so
 se: /opt/ros/humble/lib/librcl.so
 se: /opt/ros/humble/lib/librmw_implementation.so

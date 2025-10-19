@@ -1,0 +1,131 @@
+[0.458s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.474s] /usr/bin/cmake -S/home/pl/ros2_ws1/src/haik/sdk_topic_cpp -B/home/pl/ros2_ws1/build/sdk_topic_cpp --check-build-system CMakeFiles/Makefile.cmake 0
+[0.486s] Re-run cmake file: Makefile older than: /home/pl/ros2_ws1/src/haik/sdk_topic_cpp/package.xml
+[0.492s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.645s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.688s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.700s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.727s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.766s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.952s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.980s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.999s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.012s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.051s] -- Hik SDK include: /opt/MVS/include
+[1.051s] -- Hik SDK lib:     /opt/MVS/lib/64/libMvCameraControl.so
+[1.072s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.144s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.144s] -- Configured cppcheck include dirs: 
+[1.144s] -- Configured cppcheck exclude dirs and/or files: 
+[1.144s] -- Added test 'lint_cmake' to check CMake code style
+[1.146s] -- Added test 'uncrustify' to check C / C++ code style
+[1.146s] -- Configured uncrustify additional arguments: 
+[1.146s] -- Added test 'xmllint' to check XML markup files
+[1.147s] -- Configuring done
+[1.198s] -- Generating done
+[1.215s] -- Build files have been written to: /home/pl/ros2_ws1/build/sdk_topic_cpp
+[1.223s] /usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles /home/pl/ros2_ws1/build/sdk_topic_cpp//CMakeFiles/progress.marks
+[1.231s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.232s] gmake[1]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.232s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/depend
+[1.233s] /usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/depend
+[1.233s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.233s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/DependInfo.cmake --color=
+[1.233s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/depend
+[1.235s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.235s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/chu.dir/DependInfo.cmake --color=
+[1.236s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.236s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/DependInfo.cmake --color=
+[1.236s] /usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/depend
+[1.239s] /usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/depend
+[1.239s] /usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/depend
+[1.240s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.241s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/t1.dir/DependInfo.cmake --color=
+[1.243s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.243s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/biaoding.dir/DependInfo.cmake --color=
+[1.243s] Dependencies file "CMakeFiles/se.dir/src/se.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/compiler_depend.internal".
+[1.245s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.245s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/grab.dir/DependInfo.cmake --color=
+[1.245s] [35m[1mConsolidate compiler generated dependencies of target se[0m
+[1.245s] /usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/depend
+[1.246s] Dependencies file "CMakeFiles/chu.dir/src/chu.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/chu.dir/compiler_depend.internal".
+[1.246s] /usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/depend
+[1.246s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.257s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir/DependInfo.cmake --color=
+[1.257s] [35m[1mConsolidate compiler generated dependencies of target chu[0m
+[1.257s] Dependencies file "CMakeFiles/shiping.dir/src/shiping.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/compiler_depend.internal".
+[1.257s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.257s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.257s] Dependencies file "CMakeFiles/t1.dir/src/t1.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/t1.dir/compiler_depend.internal".
+[1.257s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/camera_publisher.dir/DependInfo.cmake --color=
+[1.257s] [35m[1mConsolidate compiler generated dependencies of target t1[0m
+[1.257s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/build
+[1.258s] [35m[1mConsolidate compiler generated dependencies of target shiping[0m
+[1.258s] Dependencies file "CMakeFiles/biaoding.dir/src/biaoding.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/biaoding.dir/compiler_depend.internal".
+[1.258s] [35m[1mConsolidate compiler generated dependencies of target biaoding[0m
+[1.258s] Dependencies file "CMakeFiles/grab.dir/src/grab.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/grab.dir/compiler_depend.internal".
+[1.260s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.267s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/build
+[1.267s] [35m[1mConsolidate compiler generated dependencies of target grab[0m
+[1.267s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.267s] gmake[2]: 对“CMakeFiles/se.dir/build”无需做任何事。
+[1.268s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.268s] Dependencies file "CMakeFiles/gr.dir/src/gr.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir/compiler_depend.internal".
+[1.268s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.268s] gmake[2]: 对“CMakeFiles/shiping.dir/build”无需做任何事。
+[1.268s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.268s] [35m[1mConsolidate compiler generated dependencies of target gr[0m
+[1.274s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.275s] /usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/build
+[1.275s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.275s] /usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/build
+[1.275s] Dependencies file "CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/camera_publisher.dir/compiler_depend.internal".
+[1.275s] [35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[1.275s] [ 12%] Built target se
+[1.275s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.276s] /usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/build
+[1.276s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.276s] /usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/build
+[1.277s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.277s] gmake[2]: 对“CMakeFiles/t1.dir/build”无需做任何事。
+[1.277s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.277s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.277s] /usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/build
+[1.280s] [ 25%] Built target shiping
+[1.280s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.280s] gmake[2]: 对“CMakeFiles/chu.dir/build”无需做任何事。
+[1.280s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.281s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.281s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.281s] gmake[2]: 对“CMakeFiles/biaoding.dir/build”无需做任何事。
+[1.281s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.282s] /usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/build
+[1.282s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.282s] gmake[2]: 对“CMakeFiles/grab.dir/build”无需做任何事。
+[1.282s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.286s] [ 37%] Built target t1
+[1.287s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.288s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.288s] gmake[2]: 对“CMakeFiles/camera_publisher.dir/build”无需做任何事。
+[1.288s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.290s] [ 50%] Built target biaoding
+[1.295s] [ 56%] [32mBuilding CXX object CMakeFiles/gr.dir/src/gr.cpp.o[0m
+[1.297s] [ 68%] Built target chu
+[1.300s] /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/opt/MVS/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/image_transport -isystem /opt/ros/humble/include/cv_bridge -isystem /opt/ros/humble/include/std_srvs -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/message_filters -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/gr.dir/src/gr.cpp.o -MF CMakeFiles/gr.dir/src/gr.cpp.o.d -o CMakeFiles/gr.dir/src/gr.cpp.o -c /home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp
+[1.300s] [ 81%] Built target camera_publisher
+[1.305s] [ 93%] Built target grab
+[1.546s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kvision_msgs/msg/detection2_d_array.hpp: 没有那个文件或目录
+[1.546s]     7 | #include [01;31m[K<vision_msgs/msg/detection2_d_array.hpp>[m[K
+[1.546s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.546s] compilation terminated.
+[1.552s] gmake[2]: *** [CMakeFiles/gr.dir/build.make:79：CMakeFiles/gr.dir/src/gr.cpp.o] 错误 1
+[1.552s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.552s] gmake[1]: *** [CMakeFiles/Makefile2:310：CMakeFiles/gr.dir/all] 错误 2
+[1.552s] gmake[1]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.557s] gmake: *** [Makefile:149：all] 错误 2
+[1.559s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20

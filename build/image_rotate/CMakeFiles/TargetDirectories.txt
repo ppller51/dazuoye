@@ -1,0 +1,11 @@
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/uninstall.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/image_rotate_uninstall.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/image_rotate.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/image_rotate_bin.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/test.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/edit_cache.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/rebuild_cache.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/list_install_components.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/install.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/install/local.dir
+/home/pl/ros2_ws1/build/image_rotate/CMakeFiles/install/strip.dir

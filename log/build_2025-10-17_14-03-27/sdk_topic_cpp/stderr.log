@@ -1,0 +1,30 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::processFrame(const MV_FRAME_OUT&)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:349:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<std::vector<cv::Point_<float> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  349 |       if ([01;35m[Kimage_points_.size() >= calib_frame_count_[m[K) {
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:1[m[K:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:[m[K In member function ‘[01m[Kvoid HikUsbBgr8Pub::printFrameRate()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:411:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::atomic<_Tp>::atomic(const std::atomic<_Tp>&) [with _Tp = double][m[K’
+  411 |       [01;31m[KRCLCPP_INFO[m[K(get_logger(), "当前帧率: %.1f FPS", last_fps_);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/future:41[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:1[m[K:
+[01m[K/usr/include/c++/11/atomic:227:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  227 |       [01;36m[Katomic[m[K(const atomic&) = delete;
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/biaoding.dir/build.make:79：CMakeFiles/biaoding.dir/src/biaoding.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:256：CMakeFiles/biaoding.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

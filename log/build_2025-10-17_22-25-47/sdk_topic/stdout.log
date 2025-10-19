@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing sdk_topic.egg-info/PKG-INFO
+writing dependency_links to sdk_topic.egg-info/dependency_links.txt
+writing entry points to sdk_topic.egg-info/entry_points.txt
+writing requirements to sdk_topic.egg-info/requires.txt
+writing top-level names to sdk_topic.egg-info/top_level.txt
+reading manifest file 'sdk_topic.egg-info/SOURCES.txt'
+writing manifest file 'sdk_topic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages/sdk-topic.egg-link (link to .)
+Installing bd script to /home/pl/ros2_ws1/install/sdk_topic/lib/sdk_topic
+
+Installed /home/pl/ros2_ws1/build/sdk_topic
+running symlink_data
+symbolically linking /home/pl/ros2_ws1/build/sdk_topic/resource/sdk_topic -> /home/pl/ros2_ws1/install/sdk_topic/share/ament_index/resource_index/packages
+symbolically linking /home/pl/ros2_ws1/build/sdk_topic/package.xml -> /home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic

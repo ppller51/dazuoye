@@ -1,5 +1,5 @@
 [console_scripts]
-print_fps = sdk_topic.print_fps:main
-sdk_pub = sdk_topic.sdk_pub:main
-sdk_sub = sdk_topic.sdk_sub:main
+bd = sdk_topic.bd:main
+cameracalibrator = camera_calibration.nodes.cameracalibrator:main
+cameracheck = camera_calibration.nodes.cameracheck:main
 

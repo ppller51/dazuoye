@@ -1,0 +1,7 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:[m[K In constructor ‘[01m[KHikUsbBgr8Pub::HikUsbBgr8Pub()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp:124:58:[m[K [01;31m[Kerror: [m[K‘[01m[KprintFrameRate[m[K’ is not a member of ‘[01m[KHikUsbBgr8Pub[m[K’
+  124 |       std::chrono::seconds(1), std::bind(&HikUsbBgr8Pub::[01;31m[KprintFrameRate[m[K, this));
+      |                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/biaoding.dir/build.make:79：CMakeFiles/biaoding.dir/src/biaoding.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:256：CMakeFiles/biaoding.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

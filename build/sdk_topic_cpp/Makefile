@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -210,6 +213,56 @@ se/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/build
 .PHONY : se/fast
 
+#=============================================================================
+# Target rules for targets named shiping
+
+# Build rule for target.
+shiping: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shiping
+.PHONY : shiping
+
+# fast build rule for target.
+shiping/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/build
+.PHONY : shiping/fast
+
+#=============================================================================
+# Target rules for targets named gr
+
+# Build rule for target.
+gr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gr
+.PHONY : gr
+
+# fast build rule for target.
+gr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/build
+.PHONY : gr/fast
+
+src/gr.o: src/gr.cpp.o
+.PHONY : src/gr.o
+
+# target to build an object file
+src/gr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/src/gr.cpp.o
+.PHONY : src/gr.cpp.o
+
+src/gr.i: src/gr.cpp.i
+.PHONY : src/gr.i
+
+# target to preprocess a source file
+src/gr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/src/gr.cpp.i
+.PHONY : src/gr.cpp.i
+
+src/gr.s: src/gr.cpp.s
+.PHONY : src/gr.s
+
+# target to generate assembly for a file
+src/gr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/src/gr.cpp.s
+.PHONY : src/gr.cpp.s
+
 src/se.o: src/se.cpp.o
 .PHONY : src/se.o
 
@@ -234,6 +287,30 @@ src/se.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/src/se.cpp.s
 .PHONY : src/se.cpp.s
 
+src/shiping.o: src/shiping.cpp.o
+.PHONY : src/shiping.o
+
+# target to build an object file
+src/shiping.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/src/shiping.cpp.o
+.PHONY : src/shiping.cpp.o
+
+src/shiping.i: src/shiping.cpp.i
+.PHONY : src/shiping.i
+
+# target to preprocess a source file
+src/shiping.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/src/shiping.cpp.i
+.PHONY : src/shiping.cpp.i
+
+src/shiping.s: src/shiping.cpp.s
+.PHONY : src/shiping.s
+
+# target to generate assembly for a file
+src/shiping.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/src/shiping.cpp.s
+.PHONY : src/shiping.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +326,18 @@ help:
 	@echo "... test"
 	@echo "... sdk_topic_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... gr"
 	@echo "... se"
+	@echo "... shiping"
+	@echo "... src/gr.o"
+	@echo "... src/gr.i"
+	@echo "... src/gr.s"
 	@echo "... src/se.o"
 	@echo "... src/se.i"
 	@echo "... src/se.s"
+	@echo "... src/shiping.o"
+	@echo "... src/shiping.i"
+	@echo "... src/shiping.s"
 .PHONY : help
 
 

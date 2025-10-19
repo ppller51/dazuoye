@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-00e2bc7e415c4b1c88fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "image_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_decimate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_decimate-4936c0db25954b7184e2.json",
+					"name" : "crop_decimate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_decimate_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_decimate_node-d4deadee4a7dbd197810.json",
+					"name" : "crop_decimate_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_non_zero::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_non_zero-d851d36dbd3eaa830156.json",
+					"name" : "crop_non_zero",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_non_zero_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_non_zero_node-426543b653ef5807f265.json",
+					"name" : "crop_non_zero_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debayer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debayer-066f726ebdf2d7f89610.json",
+					"name" : "debayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debayer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debayer_node-6409b5c437a2b536b912.json",
+					"name" : "debayer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc-3556dea6400c43216c76.json",
+					"name" : "image_proc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc_exe-5e233c0434056a5c06ba.json",
+					"name" : "image_proc_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc_uninstall-bc0e66ffd903e5c7aa6d.json",
+					"name" : "image_proc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectify::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectify-035074237db52f41ce5e.json",
+					"name" : "rectify",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectify_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectify_node-46cf384d286f2bfc24b6.json",
+					"name" : "rectify_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resize::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resize-697115d9cbcc0daeecd7.json",
+					"name" : "resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resize_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resize_node-c637162ba3af7e3a87d8.json",
+					"name" : "resize_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-afa9cd9773fefae5cd6a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pl/ros2_ws1/build/image_proc",
+		"source" : "/home/pl/ros2_ws1/image_pipeline/image_proc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,146 @@
+[0.276s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[0.291s] /usr/bin/cmake -S/home/pl/ros2_ws1/src/haik/sdk_topic_cpp -B/home/pl/ros2_ws1/build/sdk_topic_cpp --check-build-system CMakeFiles/Makefile.cmake 0
+[0.299s] /usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles /home/pl/ros2_ws1/build/sdk_topic_cpp//CMakeFiles/progress.marks
+[0.306s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.308s] gmake[1]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.308s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/depend
+[0.308s] /usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/depend
+[0.308s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/depend
+[0.308s] /usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/depend
+[0.308s] /usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/depend
+[0.308s] /usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/depend
+[0.309s] /usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/depend
+[0.309s] /usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/depend
+[0.309s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.310s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir/DependInfo.cmake --color=
+[0.310s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.310s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/t1.dir/DependInfo.cmake --color=
+[0.310s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.311s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir/DependInfo.cmake --color=
+[0.311s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.311s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/grab.dir/DependInfo.cmake --color=
+[0.311s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.311s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/chu.dir/DependInfo.cmake --color=
+[0.311s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.311s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir/DependInfo.cmake --color=
+[0.312s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.312s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/biaoding.dir/DependInfo.cmake --color=
+[0.312s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.312s] cd /home/pl/ros2_ws1/build/sdk_topic_cpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/src/haik/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/camera_publisher.dir/DependInfo.cmake --color=
+[0.316s] Dependencies file "CMakeFiles/gr.dir/src/gr.cpp.o.d" is newer than depends file "/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir/compiler_depend.internal".
+[0.316s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.316s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.316s] /usr/bin/gmake  -f CMakeFiles/se.dir/build.make CMakeFiles/se.dir/build
+[0.317s] /usr/bin/gmake  -f CMakeFiles/t1.dir/build.make CMakeFiles/t1.dir/build
+[0.317s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.317s] [35m[1mConsolidate compiler generated dependencies of target gr[0m
+[0.317s] /usr/bin/gmake  -f CMakeFiles/chu.dir/build.make CMakeFiles/chu.dir/build
+[0.317s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.318s] /usr/bin/gmake  -f CMakeFiles/shiping.dir/build.make CMakeFiles/shiping.dir/build
+[0.318s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.318s] /usr/bin/gmake  -f CMakeFiles/grab.dir/build.make CMakeFiles/grab.dir/build
+[0.319s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.319s] gmake[2]: 对“CMakeFiles/se.dir/build”无需做任何事。
+[0.319s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.319s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.320s] /usr/bin/gmake  -f CMakeFiles/gr.dir/build.make CMakeFiles/gr.dir/build
+[0.320s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.320s] gmake[2]: 对“CMakeFiles/t1.dir/build”无需做任何事。
+[0.320s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.320s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.320s] gmake[2]: 对“CMakeFiles/chu.dir/build”无需做任何事。
+[0.320s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.320s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.320s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.320s] /usr/bin/gmake  -f CMakeFiles/biaoding.dir/build.make CMakeFiles/biaoding.dir/build
+[0.320s] /usr/bin/gmake  -f CMakeFiles/camera_publisher.dir/build.make CMakeFiles/camera_publisher.dir/build
+[0.320s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.321s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.321s] gmake[2]: 对“CMakeFiles/grab.dir/build”无需做任何事。
+[0.321s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.323s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.323s] gmake[2]: 对“CMakeFiles/biaoding.dir/build”无需做任何事。
+[0.324s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.324s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.324s] gmake[2]: 对“CMakeFiles/camera_publisher.dir/build”无需做任何事。
+[0.324s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.324s] [ 12%] Built target se
+[0.324s] gmake[2]: 进入目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.324s] gmake[2]: 对“CMakeFiles/gr.dir/build”无需做任何事。
+[0.324s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[0.325s] [ 25%] Built target chu
+[0.326s] [ 37%] Built target grab
+[0.327s] [ 43%] [32mBuilding CXX object CMakeFiles/shiping.dir/src/shiping.cpp.o[0m
+[0.327s] [ 56%] Built target t1
+[0.328s] /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/opt/MVS/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/cv_bridge -isystem /usr/include/opencv4 -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/shiping.dir/src/shiping.cpp.o -MF CMakeFiles/shiping.dir/src/shiping.cpp.o.d -o CMakeFiles/shiping.dir/src/shiping.cpp.o -c /home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp
+[0.328s] [ 68%] Built target biaoding
+[0.328s] [ 81%] Built target camera_publisher
+[0.329s] [ 93%] Built target gr
+[1.018s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:[m[K In constructor ‘[01m[KLightbar::Lightbar()[m[K’:
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:198:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLightbar::qualified_pixel_count[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   198 |     int [01;35m[Kqualified_pixel_count[m[K;
+[1.019s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:197:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Scalar Lightbar::hsv_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   197 |     cv::Scalar [01;35m[Khsv_mean[m[K;
+[1.019s]       |                [01;35m[K^~~~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:200:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   200 |     [01;35m[KLightbar[m[K() : rect(cv::RotatedRect()), id(-1), is_valid(false),
+[1.019s]       |     [01;35m[K^~~~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:197:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KLightbar::hsv_mean[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   197 |     cv::Scalar [01;35m[Khsv_mean[m[K;
+[1.019s]       |                [01;35m[K^~~~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:195:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Lightbar::length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   195 |     float [01;35m[Klength[m[K;
+[1.019s]       |           [01;35m[K^~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:200:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   200 |     [01;35m[KLightbar[m[K() : rect(cv::RotatedRect()), id(-1), is_valid(false),
+[1.019s]       |     [01;35m[K^~~~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:[m[K In constructor ‘[01m[KLightbar::Lightbar(cv::RotatedRect, int)[m[K’:
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:198:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLightbar::qualified_pixel_count[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   198 |     int [01;35m[Kqualified_pixel_count[m[K;
+[1.019s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:197:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Scalar Lightbar::hsv_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   197 |     cv::Scalar [01;35m[Khsv_mean[m[K;
+[1.019s]       |                [01;35m[K^~~~~~~~[m[K
+[1.019s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:204:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.019s]   204 |     [01;35m[KLightbar[m[K(cv::RotatedRect r, int identifier) : rect(r), id(identifier), is_valid(false),
+[1.019s]       |     [01;35m[K^~~~~~~~[m[K
+[1.035s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:[m[K In function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, float> onnx_infer(cv::dnn::dnn4_v20211004::Net&, const cv::Mat&, const std::vector<std::__cxx11::basic_string<char> >&, int)[m[K’:
+[1.035s] [01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:515:153:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karmor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.035s]   515 | std::pair<std::string, float> onnx_infer(cv::dnn::dnn4_v20211004::Net& net, const cv::Mat& input_img, const std::vector<std::string>& class_labels, [01;35m[Kint armor_id[m[K) {
+[1.035s]       |                                                                                                                                                     [01;35m[K~~~~^~~~~~~~[m[K
+[1.568s] [100%] [32m[1mLinking CXX executable shiping[0m
+[1.568s] /usr/bin/cmake -E cmake_link_script CMakeFiles/shiping.dir/link.txt --verbose=1
+[1.575s] /usr/bin/c++ CMakeFiles/shiping.dir/src/shiping.cpp.o -o shiping  -Wl,-rpath,/opt/ros/humble/lib:/opt/MVS/lib/64 /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/libcv_bridge.so /opt/MVS/lib/64/libMvCameraControl.so -ldl /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d /usr/lib/x86_64-linux-gnu/libcurl.so /opt/ros/humble/lib/liblibstatistics_collector.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/librmw_implementation.so /opt/ros/humble/lib/libament_index_cpp.so /opt/ros/humble/lib/librcl_logging_spdlog.so /opt/ros/humble/lib/librcl_logging_interface.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_yaml_param_parser.so /opt/ros/humble/lib/libyaml.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libfastcdr.so.1.0.24 /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libpython3.10.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/librcutils.so /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d -ldl 
+[1.875s] gmake[2]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.880s] [100%] Built target shiping
+[1.881s] gmake[1]: 离开目录“/home/pl/ros2_ws1/build/sdk_topic_cpp”
+[1.881s] /usr/bin/cmake -E cmake_progress_start /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles 0
+[1.890s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pl/ros2_ws1/build/sdk_topic_cpp -- -j20 -l20
+[1.898s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp
+[1.902s] -- Install configuration: ""
+[1.903s] -- Execute custom install script
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/se
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/chu
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/shiping
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/t1
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/camera_publisher
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/grab
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/biaoding
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/lib/sdk_topic_cpp/gr
+[1.903s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/package_run_dependencies/sdk_topic_cpp
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/parent_prefix_path/sdk_topic_cpp
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.sh
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/ament_prefix_path.dsv
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.sh
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/environment/path.dsv
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.bash
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.sh
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.zsh
+[1.904s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/local_setup.dsv
+[1.904s] -- Symlinking: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.dsv
+[1.911s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/ament_index/resource_index/packages/sdk_topic_cpp
+[1.911s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig.cmake
+[1.911s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/cmake/sdk_topic_cppConfig-version.cmake
+[1.911s] -- Up-to-date symlink: /home/pl/ros2_ws1/install/sdk_topic_cpp/share/sdk_topic_cpp/package.xml
+[1.913s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pl/ros2_ws1/install/camera_calibration:/home/pl/ros2_ws1/install/sdk_topic:/home/pl/ros2_ws1/install/sdk_launch:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pl/ros2_ws1/build/sdk_topic_cpp

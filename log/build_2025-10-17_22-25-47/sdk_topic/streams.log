@@ -1,0 +1,19 @@
+[0.321s] Invoking command in '/home/pl/ros2_ws1/build/sdk_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/sdk_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pl/ros2_ws1/build/sdk_topic/build --no-deps symlink_data --force
+[0.492s] running develop
+[0.564s] running egg_info
+[0.564s] writing sdk_topic.egg-info/PKG-INFO
+[0.564s] writing dependency_links to sdk_topic.egg-info/dependency_links.txt
+[0.564s] writing entry points to sdk_topic.egg-info/entry_points.txt
+[0.564s] writing requirements to sdk_topic.egg-info/requires.txt
+[0.564s] writing top-level names to sdk_topic.egg-info/top_level.txt
+[0.565s] reading manifest file 'sdk_topic.egg-info/SOURCES.txt'
+[0.565s] writing manifest file 'sdk_topic.egg-info/SOURCES.txt'
+[0.566s] running build_ext
+[0.566s] Creating /home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages/sdk-topic.egg-link (link to .)
+[0.566s] Installing bd script to /home/pl/ros2_ws1/install/sdk_topic/lib/sdk_topic
+[0.566s] 
+[0.567s] Installed /home/pl/ros2_ws1/build/sdk_topic
+[0.567s] running symlink_data
+[0.567s] symbolically linking /home/pl/ros2_ws1/build/sdk_topic/resource/sdk_topic -> /home/pl/ros2_ws1/install/sdk_topic/share/ament_index/resource_index/packages
+[0.567s] symbolically linking /home/pl/ros2_ws1/build/sdk_topic/package.xml -> /home/pl/ros2_ws1/install/sdk_topic/share/sdk_topic
+[0.583s] Invoked command in '/home/pl/ros2_ws1/build/sdk_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pl/ros2_ws1/build/sdk_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pl/ros2_ws1/install/sdk_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pl/ros2_ws1/build/sdk_topic/build --no-deps symlink_data --force

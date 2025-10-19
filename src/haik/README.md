@@ -19,3 +19,9 @@ ros2 param set /hik_usb_bgr8_pub pixel_format RGB8
 ros2 param set /hik_usb_bgr8_pub pixel_format Mono8
 
 
+
+神经训练见“shuzi_juanji:model.py”
+
+sdk_topic_cpp/se.cpp __________获取相机图像
+sdk_topic_cpp/gr.cpp___________处理图像
+sdk_topic/bd.py_________________相机标定

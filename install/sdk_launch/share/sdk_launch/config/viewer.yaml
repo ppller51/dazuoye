@@ -1,5 +1,0 @@
-hk_image_viewer:
-  ros__parameters:
-    image_topic: "/image_raw"
-    window_name: "HK Camera Viewer"
-    queue_size: 10

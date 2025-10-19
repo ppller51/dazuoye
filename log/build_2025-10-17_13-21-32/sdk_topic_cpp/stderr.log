@@ -1,0 +1,7 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/grab.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/set_bool.hpp: 没有那个文件或目录
+    6 | #include [01;31m[K<std_srvs/srv/set_bool.hpp>[m[K  // 调试暂停服务（可选）
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/grab.dir/build.make:79：CMakeFiles/grab.dir/src/grab.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:254：CMakeFiles/grab.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

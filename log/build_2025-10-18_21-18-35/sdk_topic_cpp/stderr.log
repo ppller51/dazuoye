@@ -1,0 +1,33 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:[m[K In constructor ‘[01m[KLightbar::Lightbar()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:198:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLightbar::qualified_pixel_count[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  198 |     int [01;35m[Kqualified_pixel_count[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:197:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Scalar Lightbar::hsv_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  197 |     cv::Scalar [01;35m[Khsv_mean[m[K;
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:200:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  200 |     [01;35m[KLightbar[m[K() : rect(cv::RotatedRect()), id(-1), is_valid(false),
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:197:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KLightbar::hsv_mean[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  197 |     cv::Scalar [01;35m[Khsv_mean[m[K;
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:195:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Lightbar::length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  195 |     float [01;35m[Klength[m[K;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:200:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  200 |     [01;35m[KLightbar[m[K() : rect(cv::RotatedRect()), id(-1), is_valid(false),
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:[m[K In constructor ‘[01m[KLightbar::Lightbar(cv::RotatedRect, int)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:198:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLightbar::qualified_pixel_count[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  198 |     int [01;35m[Kqualified_pixel_count[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:197:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Scalar Lightbar::hsv_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  197 |     cv::Scalar [01;35m[Khsv_mean[m[K;
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:204:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  204 |     [01;35m[KLightbar[m[K(cv::RotatedRect r, int identifier) : rect(r), id(identifier), is_valid(false),
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:[m[K In function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, float> onnx_infer(cv::dnn::dnn4_v20211004::Net&, const cv::Mat&, const std::vector<std::__cxx11::basic_string<char> >&, int)[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/shiping.cpp:515:153:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karmor_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  515 | std::pair<std::string, float> onnx_infer(cv::dnn::dnn4_v20211004::Net& net, const cv::Mat& input_img, const std::vector<std::string>& class_labels, [01;35m[Kint armor_id[m[K) {
+      |                                                                                                                                                     [01;35m[K~~~~^~~~~~~~[m[K

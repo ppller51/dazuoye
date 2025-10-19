@@ -1,0 +1,7 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kvision_msgs/msg/detection2_d_array.hpp: 没有那个文件或目录
+    7 | #include [01;31m[K<vision_msgs/msg/detection2_d_array.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gr.dir/build.make:79：CMakeFiles/gr.dir/src/gr.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:310：CMakeFiles/gr.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1a29151fef5018b9a9ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdk_topic_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gr-01b91e5437a0b09b4457.json",
+					"name" : "gr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_topic_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_topic_cpp_uninstall-6e2aa63b6824bd6e6dc5.json",
+					"name" : "sdk_topic_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "se::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-se-60d163ec29bb78de5b27.json",
+					"name" : "se",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shiping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shiping-b18ac5ee85ec35abf5ac.json",
+					"name" : "shiping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-98f70e1ec1c494759e7c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pl/ros2_ws1/build/sdk_topic_cpp",
+		"source" : "/home/pl/ros2_ws1/src/haik/sdk_topic_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

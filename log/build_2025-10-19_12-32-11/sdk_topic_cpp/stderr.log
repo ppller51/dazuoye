@@ -1,0 +1,22 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/camera_publisher.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:79：CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:336：CMakeFiles/camera_publisher.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/chu.cpp: 没有那个文件或目录
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/grab.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/chu.dir/build.make:79：CMakeFiles/chu.dir/src/chu.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/grab.dir/build.make:79：CMakeFiles/grab.dir/src/grab.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:180：CMakeFiles/chu.dir/all] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:284：CMakeFiles/grab.dir/all] 错误 2
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/biaoding.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/biaoding.dir/build.make:79：CMakeFiles/biaoding.dir/src/biaoding.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:258：CMakeFiles/biaoding.dir/all] 错误 2
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/t1.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/t1.dir/build.make:79：CMakeFiles/t1.dir/src/t1.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:232：CMakeFiles/t1.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

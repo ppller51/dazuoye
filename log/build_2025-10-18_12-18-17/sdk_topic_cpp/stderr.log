@@ -1,0 +1,17 @@
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:[m[K In member function ‘[01m[Kvoid ArmorDetectionNode::load_camera_params()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:506:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Formatted[m[K’ has no member named ‘[01m[Kstr[m[K’
+  506 |         write_debug_log("camera_matrix:\n" + cv::format(camera_matrix_, cv::Formatter::FMT_DEFAULT)->[01;31m[Kstr[m[K(), get_logger());
+      |                                                                                                      [01;31m[K^~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:507:116:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Formatted[m[K’ has no member named ‘[01m[Kstr[m[K’
+  507 |         write_debug_log("distortion_coefficients:\n" + cv::format(distortion_coeffs_, cv::Formatter::FMT_DEFAULT)->[01;31m[Kstr[m[K(), get_logger());
+      |                                                                                                                    [01;31m[K^~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:[m[K In member function ‘[01m[Kvoid ArmorDetectionNode::process_single_frame()[m[K’:
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:716:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Formatted[m[K’ has no member named ‘[01m[Kstr[m[K’
+  716 |                 write_debug_log("旋转矩阵 R:\n" + cv::format(R, cv::Formatter::FMT_DEFAULT)->[01;31m[Kstr[m[K(), get_logger());
+      |                                                                                              [01;31m[K^~~[m[K
+[01m[K/home/pl/ros2_ws1/src/haik/sdk_topic_cpp/src/gr.cpp:717:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Formatted[m[K’ has no member named ‘[01m[Kstr[m[K’
+  717 |                 write_debug_log("平移向量 t (mm):\n" + cv::format(tvec, cv::Formatter::FMT_DEFAULT)->[01;31m[Kstr[m[K(), get_logger());
+      |                                                                                                      [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/gr.dir/build.make:79：CMakeFiles/gr.dir/src/gr.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:310：CMakeFiles/gr.dir/all] 错误 2
+gmake: *** [Makefile:149：all] 错误 2

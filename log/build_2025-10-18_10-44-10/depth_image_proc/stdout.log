@@ -1,0 +1,97 @@
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_xyz_radial_node[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_xyzi_radial_node[0m
+[35m[1mConsolidate compiler generated dependencies of target register_node[0m
+[35m[1mConsolidate compiler generated dependencies of target disparity_node[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_xyzrgb_node[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_xyzrgb_radial_node[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_xyzi_node[0m
+[35m[1mConsolidate compiler generated dependencies of target convert_metric_node[0m
+[35m[1mConsolidate compiler generated dependencies of target crop_foremost_node[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_xyz_node[0m
+[35m[1mConsolidate compiler generated dependencies of target depth_image_proc[0m
+[  6%] Built target point_cloud_xyz_radial_node
+[ 12%] Built target point_cloud_xyzi_radial_node
+[ 18%] Built target register_node
+[ 34%] Built target point_cloud_xyzi_node
+[ 37%] Built target disparity_node
+[ 37%] Built target point_cloud_xyzrgb_node
+[ 43%] Built target point_cloud_xyzrgb_radial_node
+[ 50%] Built target point_cloud_xyz_node
+[ 56%] Built target convert_metric_node
+[ 62%] Built target crop_foremost_node
+[100%] Built target depth_image_proc
+-- Install configuration: ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/convert_metric_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/convert_metric_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/crop_foremost_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/crop_foremost_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/disparity_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/disparity_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyz_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyz_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzrgb_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzrgb_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzi_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzi_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyz_radial_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyz_radial_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzi_radial_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzi_radial_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzrgb_radial_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/point_cloud_xyzrgb_radial_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/register_node
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/depth_image_proc/register_node" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi_radial.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz_radial.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/conversions.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/visibility.h
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/depth_traits.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb_radial.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi.hpp
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/environment/library_path.sh
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/environment/library_path.dsv
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/lib/libdepth_image_proc.so
+-- Set runtime path of "/home/pl/ros2_ws1/install/depth_image_proc/lib/libdepth_image_proc.so" to ""
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi_radial.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/disparity.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/convert_metric.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb_radial.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/register.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz_radial.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/crop_foremost.launch.py
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/convert_metric.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzi.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz_radial.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/disparity.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzrgb.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/crop_formost.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/launch/rviz/register.rviz
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/ament_index/resource_index/package_run_dependencies/depth_image_proc
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/ament_index/resource_index/parent_prefix_path/depth_image_proc
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.sh
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.dsv
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/environment/path.sh
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/environment/path.dsv
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/local_setup.bash
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/local_setup.sh
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/local_setup.zsh
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/local_setup.dsv
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/package.dsv
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/ament_index/resource_index/packages/depth_image_proc
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/ament_index/resource_index/rclcpp_components/depth_image_proc
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig.cmake
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake
+-- Installing: /home/pl/ros2_ws1/install/depth_image_proc/share/depth_image_proc/package.xml

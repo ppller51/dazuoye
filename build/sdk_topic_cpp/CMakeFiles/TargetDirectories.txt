@@ -1,6 +1,8 @@
 /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/uninstall.dir
 /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/sdk_topic_cpp_uninstall.dir
 /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/se.dir
+/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/shiping.dir
+/home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/gr.dir
 /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/test.dir
 /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/edit_cache.dir
 /home/pl/ros2_ws1/build/sdk_topic_cpp/CMakeFiles/rebuild_cache.dir
